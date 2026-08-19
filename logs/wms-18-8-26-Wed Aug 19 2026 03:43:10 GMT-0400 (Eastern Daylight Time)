@@ -1,0 +1,167 @@
+[33m[36m[OUT][0m # STARTING WRM CONNECTION
+[0m
+[33m[31m[ERR][0m (node:181021) [DEP0128] DeprecationWarning: Invalid 'main' field in '/home/drako/Documents/GitHub/woomy-server-manager/instances/wms-18-8-26/node_modules/node-blob/package.json' of 'server.js'. Please either fix that or report it to the module author
+[0m
+[33m[31m[ERR][0m (Use `node --trace-deprecation ...` to show where the warning was created)
+[0m
+[33m[36m[OUT][0m Room socket opened with room manager
+[0m
+[33m[36m[OUT][0m # STARTING WORKER
+[0m
+[33m[36m[OUT][0m [STATUS MESSAGE] Loading definitions... - undefined
+[0m
+[33m[36m[OUT][0m [LOG] Started parsing stats...
+[0m
+[33m[36m[OUT][0m [STATUS MESSAGE] Loading game... - undefined
+[0m
+[33m[36m[OUT][0m Waiting for host room id...
+[0m
+[33m[36m[OUT][0m [LOG] Finished parsing stats!
+[0m
+[33m[36m[OUT][0m [LOG] Started parsing definitions...
+[0m
+[33m[36m[OUT][0m Branch CRF Tanks found undefined at index 27
+[0m
+[33m[36m[OUT][0m [LOG] Finished parsing definitions!
+[0m
+[33m[36m[OUT][0m SERVER START DATA: {
+[0m
+[33m[36m[OUT][0m   suffix: 'warfront.js',
+[0m
+[33m[36m[OUT][0m   displayName: '[WOMS] Warfront',
+[0m
+[33m[36m[OUT][0m   displayDesc: 'The default woomy online modded server (WOMS) template. Edit start.js to change this.\n' +
+[0m
+[33m[36m[OUT][0m     '\n' +
+[0m
+[33m[36m[OUT][0m     'Join the discord to learn more about modding!',
+[0m
+[33m[36m[OUT][0m   maxPlayers: 99,
+[0m
+[33m[36m[OUT][0m   maxBots: 20,
+[0m
+[33m[36m[OUT][0m   roomHostToken: 'suckmyballs'
+[0m
+[33m[36m[OUT][0m }
+[0m
+[33m[36m[OUT][0m Server is supposed to be online. Loading profile warfront.js
+[0m
+[33m[36m[OUT][0m [0.010]: 12500 x 1500 room initalized. Max food: 400. Max nest food: 30. Max crashers: 18.
+[0m
+[33m[36m[OUT][0m Updating room info in WRM {
+[0m
+[33m[36m[OUT][0m   type: 'updatePlayers',
+[0m
+[33m[36m[OUT][0m   serverSpeed: 5,
+[0m
+[33m[36m[OUT][0m   players: 0,
+[0m
+[33m[36m[OUT][0m   maxPlayers: 99,
+[0m
+[33m[36m[OUT][0m   name: '[WOMS] Warfront',
+[0m
+[33m[36m[OUT][0m   desc: 'The default woomy online modded server (WOMS) template. Edit start.js to change this.\n' +
+[0m
+[33m[36m[OUT][0m     '\n' +
+[0m
+[33m[36m[OUT][0m     'Join the discord to learn more about modding!'
+[0m
+[33m[36m[OUT][0m }
+[0m
+[33m[36m[OUT][0m ...Got host room id
+[0m
+[33m[36m[OUT][0m 🚀 Up and running with room id: 56fdd34
+[0m
+[33m[36m[OUT][0m [0.406]: Spawned 20 AI bots.
+[0m
+[33m[36m[OUT][0m Accepting new peer connection
+[0m
+[33m[36m[OUT][0m Successfully fetched TURN credentials.
+[0m
+[33m[36m[OUT][0m [
+[0m
+[33m[36m[OUT][0m   { urls: 'stun:stun.l.google.com:19302' },
+[0m
+[33m[36m[OUT][0m   { urls: 'stun:stun1.l.google.com:19302' },
+[0m
+[33m[36m[OUT][0m   { urls: 'stun:stun2.l.google.com:19302' },
+[0m
+[33m[36m[OUT][0m   { urls: 'stun:stun3.l.google.com:19302' },
+[0m
+[33m[36m[OUT][0m   { urls: 'stun:stun4.l.google.com:19302' },
+[0m
+[33m[36m[OUT][0m   {
+[0m
+[33m[36m[OUT][0m     urls: 'turn:69.207.41.140:3478?transport=udp',
+[0m
+[33m[36m[OUT][0m     username: '1787128997:user-584a63706b3e',
+[0m
+[33m[36m[OUT][0m     credential: '4Xms20atS6Esq7NIkJsvGpfW3v8='
+[0m
+[33m[36m[OUT][0m   }
+[0m
+[33m[36m[OUT][0m ]
+[0m
+[33m[36m[OUT][0m Initializing new peer connection
+[0m
+[33m[36m[OUT][0m New peer connection initialized
+[0m
+[33m[36m[OUT][0m Connecting to new peer
+[0m
+[33m[36m[OUT][0m Connected to new peer
+[0m
+[33m[36m[OUT][0m [5.654]: New socket initiated!
+[0m
+[33m[36m[OUT][0m [5.660]: An unnamed player joined the game! Player ID: 321. IP: 127.0.0.1. Players: 1.
+[0m
+[33m[36m[OUT][0m Updating room info in WRM {
+[0m
+[33m[36m[OUT][0m   type: 'updatePlayers',
+[0m
+[33m[36m[OUT][0m   serverSpeed: 3,
+[0m
+[33m[36m[OUT][0m   players: 1,
+[0m
+[33m[36m[OUT][0m   maxPlayers: 99,
+[0m
+[33m[36m[OUT][0m   name: '[WOMS] Warfront',
+[0m
+[33m[36m[OUT][0m   desc: 'The default woomy online modded server (WOMS) template. Edit start.js to change this.\n' +
+[0m
+[33m[36m[OUT][0m     '\n' +
+[0m
+[33m[36m[OUT][0m     'Join the discord to learn more about modding!'
+[0m
+[33m[36m[OUT][0m }
+[0m
+[33m[36m[OUT][0m [Peer 3bf33447-3f92-4d78-82bf-054d02cceec1] Connection closed
+[0m
+[33m[31m[ERR][0m Peer 3bf33447-3f92-4d78-82bf-054d02cceec1 does not exist
+[0m
+[33m[36m[OUT][0m [8.651]: Socket (0) [Unnamed Player]: has disconnected! Players: 0
+[0m
+[33m[31m[ERR][0m Peer 3bf33447-3f92-4d78-82bf-054d02cceec1 does not exist
+[0m
+[33m[36m[OUT][0m Updating room info in WRM {
+[0m
+[33m[36m[OUT][0m   type: 'updatePlayers',
+[0m
+[33m[36m[OUT][0m   serverSpeed: 4,
+[0m
+[33m[36m[OUT][0m   players: 0,
+[0m
+[33m[36m[OUT][0m   maxPlayers: 99,
+[0m
+[33m[36m[OUT][0m   name: '[WOMS] Warfront',
+[0m
+[33m[36m[OUT][0m   desc: 'The default woomy online modded server (WOMS) template. Edit start.js to change this.\n' +
+[0m
+[33m[36m[OUT][0m     '\n' +
+[0m
+[33m[36m[OUT][0m     'Join the discord to learn more about modding!'
+[0m
+[33m[36m[OUT][0m }
+[0m
+[33m[31m[ERR][0m Peer 3bf33447-3f92-4d78-82bf-054d02cceec1 does not exist
+[0m
+[33m[Supervisor]: Process exited (Code: null, Signal: SIGTERM).[0m

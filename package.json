@@ -1,0 +1,15 @@
+{
+  "name": "woomy-server-manager",
+  "version": "1.0.0",
+  "description": "A suite of tools meant to cater towards large woomy modded server hosts",
+  "author": "drako hyena",
+  "type": "module",
+  "main": "start.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "chalk": "^6.0.0",
+    "log-update": "^8.0.0"
+  }
+}

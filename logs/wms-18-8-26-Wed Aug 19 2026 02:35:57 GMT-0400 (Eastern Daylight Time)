@@ -1,0 +1,83 @@
+[33m[36m[OUT][0m # STARTING WRM CONNECTION
+[0m
+[33m[31m[ERR][0m (node:157528) [DEP0128] DeprecationWarning: Invalid 'main' field in '/home/drako/Documents/GitHub/woomy-server-manager/instances/wms-18-8-26/node_modules/node-blob/package.json' of 'server.js'. Please either fix that or report it to the module author
+[0m
+[33m[31m[ERR][0m (Use `node --trace-deprecation ...` to show where the warning was created)
+[0m
+[33m[36m[OUT][0m Room socket opened with room manager
+[0m
+[33m[36m[OUT][0m # STARTING WORKER
+[0m
+[33m[36m[OUT][0m [STATUS MESSAGE] Loading definitions... - undefined
+[0m
+[33m[36m[OUT][0m [LOG] Started parsing stats...
+[0m
+[33m[36m[OUT][0m [STATUS MESSAGE] Loading game... - undefined
+[0m
+[33m[36m[OUT][0m Waiting for host room id...
+[0m
+[33m[36m[OUT][0m [LOG] Finished parsing stats!
+[0m
+[33m[36m[OUT][0m [LOG] Started parsing definitions...
+[0m
+[33m[36m[OUT][0m Branch CRF Tanks found undefined at index 27
+[0m
+[33m[36m[OUT][0m [LOG] Finished parsing definitions!
+[0m
+[33m[36m[OUT][0m SERVER START DATA: {
+[0m
+[33m[36m[OUT][0m   suffix: 'warfront.js',
+[0m
+[33m[36m[OUT][0m   displayName: '[OFFICAL] Warfront',
+[0m
+[33m[36m[OUT][0m   displayDesc: 'A stable server hosted by the developer of the game.\n' +
+[0m
+[33m[36m[OUT][0m     '\n' +
+[0m
+[33m[36m[OUT][0m     'Try the new Chinook tank!\n' +
+[0m
+[33m[36m[OUT][0m     '\n' +
+[0m
+[33m[36m[OUT][0m     'Ping me (@drakohyena) in the discord if theres any issues!',
+[0m
+[33m[36m[OUT][0m   maxPlayers: 1,
+[0m
+[33m[36m[OUT][0m   maxBots: 20,
+[0m
+[33m[36m[OUT][0m   roomHostToken: 'suckmyballs'
+[0m
+[33m[36m[OUT][0m }
+[0m
+[33m[36m[OUT][0m Server is supposed to be online. Loading profile warfront.js
+[0m
+[33m[36m[OUT][0m [0.009]: 12500 x 1500 room initalized. Max food: 400. Max nest food: 30. Max crashers: 18.
+[0m
+[33m[36m[OUT][0m Updating room info in WRM {
+[0m
+[33m[36m[OUT][0m   type: 'updatePlayers',
+[0m
+[33m[36m[OUT][0m   players: 0,
+[0m
+[33m[36m[OUT][0m   maxPlayers: 1,
+[0m
+[33m[36m[OUT][0m   name: '[OFFICAL] Warfront',
+[0m
+[33m[36m[OUT][0m   desc: 'A stable server hosted by the developer of the game.\n' +
+[0m
+[33m[36m[OUT][0m     '\n' +
+[0m
+[33m[36m[OUT][0m     'Try the new Chinook tank!\n' +
+[0m
+[33m[36m[OUT][0m     '\n' +
+[0m
+[33m[36m[OUT][0m     'Ping me (@drakohyena) in the discord if theres any issues!'
+[0m
+[33m[36m[OUT][0m }
+[0m
+[33m[36m[OUT][0m ...Got host room id
+[0m
+[33m[36m[OUT][0m 🚀 Up and running with room id: 37144dd
+[0m
+[33m[36m[OUT][0m [0.400]: Spawned 20 AI bots.
+[0m
+[33m[Supervisor]: Process exited (Code: null, Signal: SIGTERM).[0m

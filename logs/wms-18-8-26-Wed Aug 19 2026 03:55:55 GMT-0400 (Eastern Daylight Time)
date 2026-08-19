@@ -1,0 +1,2351 @@
+[33m[36m[OUT][0m # STARTING WRM CONNECTION
+[0m
+[33m[31m[ERR][0m (node:184862) [DEP0128] DeprecationWarning: Invalid 'main' field in '/home/drako/Documents/GitHub/woomy-server-manager/instances/wms-18-8-26/node_modules/node-blob/package.json' of 'server.js'. Please either fix that or report it to the module author
+[0m
+[33m[31m[ERR][0m (Use `node --trace-deprecation ...` to show where the warning was created)
+[0m
+[33m[36m[OUT][0m Error opening room socket to room manager
+[0m
+[33m[36m[OUT][0m Room socket closed with room manager. Retrying in 5 seconds.
+[0m
+[33m[31m[ERR][0m Failed to start RM connection ErrorEvent {
+[0m
+[33m[31m[ERR][0m   Symbol(kTarget): WebSocket {
+[0m
+[33m[31m[ERR][0m     _events: [Object: null prototype] {
+[0m
+[33m[31m[ERR][0m       open: [Function],
+[0m
+[33m[31m[ERR][0m       error: [Function],
+[0m
+[33m[31m[ERR][0m       message: [Function],
+[0m
+[33m[31m[ERR][0m       close: [Function]
+[0m
+[33m[31m[ERR][0m     },
+[0m
+[33m[31m[ERR][0m     _eventsCount: 4,
+[0m
+[33m[31m[ERR][0m     _maxListeners: undefined,
+[0m
+[33m[31m[ERR][0m     _binaryType: 'nodebuffer',
+[0m
+[33m[31m[ERR][0m     _closeCode: 1006,
+[0m
+[33m[31m[ERR][0m     _closeFrameReceived: false,
+[0m
+[33m[31m[ERR][0m     _closeFrameSent: false,
+[0m
+[33m[31m[ERR][0m     _closeMessage: <Buffer >,
+[0m
+[33m[31m[ERR][0m     _closeTimer: null,
+[0m
+[33m[31m[ERR][0m     _errorEmitted: true,
+[0m
+[33m[31m[ERR][0m     _extensions: {},
+[0m
+[33m[31m[ERR][0m     _paused: false,
+[0m
+[33m[31m[ERR][0m     _protocol: '',
+[0m
+[33m[31m[ERR][0m     _readyState: 3,
+[0m
+[33m[31m[ERR][0m     _receiver: null,
+[0m
+[33m[31m[ERR][0m     _sender: null,
+[0m
+[33m[31m[ERR][0m     _socket: null,
+[0m
+[33m[31m[ERR][0m     _bufferedAmount: 0,
+[0m
+[33m[31m[ERR][0m     _isServer: false,
+[0m
+[33m[31m[ERR][0m     _redirects: 0,
+[0m
+[33m[31m[ERR][0m     _autoPong: true,
+[0m
+[33m[31m[ERR][0m     _closeTimeout: 30000,
+[0m
+[33m[31m[ERR][0m     _url: 'ws://localhost:3000/host',
+[0m
+[33m[31m[ERR][0m     _req: null,
+[0m
+[33m[31m[ERR][0m     Symbol(shapeMode): false,
+[0m
+[33m[31m[ERR][0m     Symbol(kCapture): false
+[0m
+[33m[31m[ERR][0m   },
+[0m
+[33m[31m[ERR][0m   Symbol(kType): 'error',
+[0m
+[33m[31m[ERR][0m   Symbol(kError): AggregateError [ECONNREFUSED]: 
+[0m
+[33m[31m[ERR][0m       at internalConnectMultiple (node:net:1339:18)
+[0m
+[33m[31m[ERR][0m       at afterConnectMultiple (node:net:1942:7) {
+[0m
+[33m[31m[ERR][0m     code: 'ECONNREFUSED',
+[0m
+[33m[31m[ERR][0m     [errors]: [ [Error], [Error] ]
+[0m
+[33m[31m[ERR][0m   },
+[0m
+[33m[31m[ERR][0m   Symbol(kMessage): ''
+[0m
+[33m[31m[ERR][0m }
+[0m
+[33m[36m[OUT][0m # STARTING WORKER
+[0m
+[33m[36m[OUT][0m [STATUS MESSAGE] Loading definitions... - undefined
+[0m
+[33m[36m[OUT][0m [LOG] Started parsing stats...
+[0m
+[33m[36m[OUT][0m [STATUS MESSAGE] Loading game... - undefined
+[0m
+[33m[36m[OUT][0m Waiting for host room id...
+[0m
+[33m[36m[OUT][0m [LOG] Finished parsing stats!
+[0m
+[33m[36m[OUT][0m [LOG] Started parsing definitions...
+[0m
+[33m[36m[OUT][0m Branch CRF Tanks found undefined at index 27
+[0m
+[33m[36m[OUT][0m [LOG] Finished parsing definitions!
+[0m
+[33m[36m[OUT][0m SERVER START DATA: {
+[0m
+[33m[36m[OUT][0m   suffix: 'warfront.js',
+[0m
+[33m[36m[OUT][0m   displayName: '[WOMS] Warfront',
+[0m
+[33m[36m[OUT][0m   displayDesc: 'The default woomy online modded server (WOMS) template. Edit start.js to change this.\n' +
+[0m
+[33m[36m[OUT][0m     '\n' +
+[0m
+[33m[36m[OUT][0m     'Join the discord to learn more about modding!',
+[0m
+[33m[36m[OUT][0m   maxPlayers: 99,
+[0m
+[33m[36m[OUT][0m   maxBots: 20,
+[0m
+[33m[36m[OUT][0m   roomHostToken: 'suckmyballs'
+[0m
+[33m[36m[OUT][0m }
+[0m
+[33m[36m[OUT][0m Server is supposed to be online. Loading profile warfront.js
+[0m
+[33m[36m[OUT][0m [0.009]: 12500 x 1500 room initalized. Max food: 400. Max nest food: 30. Max crashers: 18.
+[0m
+[33m[36m[OUT][0m Updating room info in WRM {
+[0m
+[33m[36m[OUT][0m   type: 'updatePlayers',
+[0m
+[33m[36m[OUT][0m   serverSpeed: 4,
+[0m
+[33m[36m[OUT][0m   players: 0,
+[0m
+[33m[36m[OUT][0m   maxPlayers: 99,
+[0m
+[33m[36m[OUT][0m   name: '[WOMS] Warfront',
+[0m
+[33m[36m[OUT][0m   desc: 'The default woomy online modded server (WOMS) template. Edit start.js to change this.\n' +
+[0m
+[33m[36m[OUT][0m     '\n' +
+[0m
+[33m[36m[OUT][0m     'Join the discord to learn more about modding!'
+[0m
+[33m[36m[OUT][0m }
+[0m
+[33m[36m[OUT][0m [0.398]: Spawned 20 AI bots.
+[0m
+[33m[36m[OUT][0m Retrying WRM connection...
+[0m
+[33m[36m[OUT][0m Error opening room socket to room manager
+[0m
+[33m[36m[OUT][0m Room socket closed with room manager. Retrying in 5 seconds.
+[0m
+[33m[31m[ERR][0m Failed to restart ErrorEvent {
+[0m
+[33m[31m[ERR][0m   Symbol(kTarget): WebSocket {
+[0m
+[33m[31m[ERR][0m     _events: [Object: null prototype] {
+[0m
+[33m[31m[ERR][0m       open: [Function],
+[0m
+[33m[31m[ERR][0m       error: [Function],
+[0m
+[33m[31m[ERR][0m       message: [Function],
+[0m
+[33m[31m[ERR][0m       close: [Function]
+[0m
+[33m[31m[ERR][0m     },
+[0m
+[33m[31m[ERR][0m     _eventsCount: 4,
+[0m
+[33m[31m[ERR][0m     _maxListeners: undefined,
+[0m
+[33m[31m[ERR][0m     _binaryType: 'nodebuffer',
+[0m
+[33m[31m[ERR][0m     _closeCode: 1006,
+[0m
+[33m[31m[ERR][0m     _closeFrameReceived: false,
+[0m
+[33m[31m[ERR][0m     _closeFrameSent: false,
+[0m
+[33m[31m[ERR][0m     _closeMessage: <Buffer >,
+[0m
+[33m[31m[ERR][0m     _closeTimer: null,
+[0m
+[33m[31m[ERR][0m     _errorEmitted: true,
+[0m
+[33m[31m[ERR][0m     _extensions: {},
+[0m
+[33m[31m[ERR][0m     _paused: false,
+[0m
+[33m[31m[ERR][0m     _protocol: '',
+[0m
+[33m[31m[ERR][0m     _readyState: 3,
+[0m
+[33m[31m[ERR][0m     _receiver: null,
+[0m
+[33m[31m[ERR][0m     _sender: null,
+[0m
+[33m[31m[ERR][0m     _socket: null,
+[0m
+[33m[31m[ERR][0m     _bufferedAmount: 0,
+[0m
+[33m[31m[ERR][0m     _isServer: false,
+[0m
+[33m[31m[ERR][0m     _redirects: 0,
+[0m
+[33m[31m[ERR][0m     _autoPong: true,
+[0m
+[33m[31m[ERR][0m     _closeTimeout: 30000,
+[0m
+[33m[31m[ERR][0m     _url: 'ws://localhost:3000/host',
+[0m
+[33m[31m[ERR][0m     _req: null,
+[0m
+[33m[31m[ERR][0m     Symbol(shapeMode): false,
+[0m
+[33m[31m[ERR][0m     Symbol(kCapture): false
+[0m
+[33m[31m[ERR][0m   },
+[0m
+[33m[31m[ERR][0m   Symbol(kType): 'error',
+[0m
+[33m[31m[ERR][0m   Symbol(kError): AggregateError [ECONNREFUSED]: 
+[0m
+[33m[31m[ERR][0m       at internalConnectMultiple (node:net:1339:18)
+[0m
+[33m[31m[ERR][0m       at afterConnectMultiple (node:net:1942:7) {
+[0m
+[33m[31m[ERR][0m     code: 'ECONNREFUSED',
+[0m
+[33m[31m[ERR][0m     [errors]: [ [Error], [Error] ]
+[0m
+[33m[31m[ERR][0m   },
+[0m
+[33m[31m[ERR][0m   Symbol(kMessage): ''
+[0m
+[33m[31m[ERR][0m }
+[0m
+[33m[36m[OUT][0m Waiting for host room id...
+[0m
+[33m[36m[OUT][0m Retrying WRM connection...
+[0m
+[33m[36m[OUT][0m Error opening room socket to room manager
+[0m
+[33m[36m[OUT][0m Room socket closed with room manager. Retrying in 5 seconds.
+[0m
+[33m[31m[ERR][0m Failed to restart ErrorEvent {
+[0m
+[33m[31m[ERR][0m   Symbol(kTarget): WebSocket {
+[0m
+[33m[31m[ERR][0m     _events: [Object: null prototype] {
+[0m
+[33m[31m[ERR][0m       open: [Function],
+[0m
+[33m[31m[ERR][0m       error: [Function],
+[0m
+[33m[31m[ERR][0m       message: [Function],
+[0m
+[33m[31m[ERR][0m       close: [Function]
+[0m
+[33m[31m[ERR][0m     },
+[0m
+[33m[31m[ERR][0m     _eventsCount: 4,
+[0m
+[33m[31m[ERR][0m     _maxListeners: undefined,
+[0m
+[33m[31m[ERR][0m     _binaryType: 'nodebuffer',
+[0m
+[33m[31m[ERR][0m     _closeCode: 1006,
+[0m
+[33m[31m[ERR][0m     _closeFrameReceived: false,
+[0m
+[33m[31m[ERR][0m     _closeFrameSent: false,
+[0m
+[33m[31m[ERR][0m     _closeMessage: <Buffer >,
+[0m
+[33m[31m[ERR][0m     _closeTimer: null,
+[0m
+[33m[31m[ERR][0m     _errorEmitted: true,
+[0m
+[33m[31m[ERR][0m     _extensions: {},
+[0m
+[33m[31m[ERR][0m     _paused: false,
+[0m
+[33m[31m[ERR][0m     _protocol: '',
+[0m
+[33m[31m[ERR][0m     _readyState: 3,
+[0m
+[33m[31m[ERR][0m     _receiver: null,
+[0m
+[33m[31m[ERR][0m     _sender: null,
+[0m
+[33m[31m[ERR][0m     _socket: null,
+[0m
+[33m[31m[ERR][0m     _bufferedAmount: 0,
+[0m
+[33m[31m[ERR][0m     _isServer: false,
+[0m
+[33m[31m[ERR][0m     _redirects: 0,
+[0m
+[33m[31m[ERR][0m     _autoPong: true,
+[0m
+[33m[31m[ERR][0m     _closeTimeout: 30000,
+[0m
+[33m[31m[ERR][0m     _url: 'ws://localhost:3000/host',
+[0m
+[33m[31m[ERR][0m     _req: null,
+[0m
+[33m[31m[ERR][0m     Symbol(shapeMode): false,
+[0m
+[33m[31m[ERR][0m     Symbol(kCapture): false
+[0m
+[33m[31m[ERR][0m   },
+[0m
+[33m[31m[ERR][0m   Symbol(kType): 'error',
+[0m
+[33m[31m[ERR][0m   Symbol(kError): AggregateError [ECONNREFUSED]: 
+[0m
+[33m[31m[ERR][0m       at internalConnectMultiple (node:net:1339:18)
+[0m
+[33m[31m[ERR][0m       at afterConnectMultiple (node:net:1942:7) {
+[0m
+[33m[31m[ERR][0m     code: 'ECONNREFUSED',
+[0m
+[33m[31m[ERR][0m     [errors]: [ [Error], [Error] ]
+[0m
+[33m[31m[ERR][0m   },
+[0m
+[33m[31m[ERR][0m   Symbol(kMessage): ''
+[0m
+[33m[31m[ERR][0m }
+[0m
+[33m[36m[OUT][0m Waiting for host room id...
+[0m
+[33m[36m[OUT][0m Retrying WRM connection...
+[0m
+[33m[36m[OUT][0m Error opening room socket to room manager
+[0m
+[33m[36m[OUT][0m Room socket closed with room manager. Retrying in 5 seconds.
+[0m
+[33m[31m[ERR][0m Failed to restart ErrorEvent {
+[0m
+[33m[31m[ERR][0m   Symbol(kTarget): WebSocket {
+[0m
+[33m[31m[ERR][0m     _events: [Object: null prototype] {
+[0m
+[33m[31m[ERR][0m       open: [Function],
+[0m
+[33m[31m[ERR][0m       error: [Function],
+[0m
+[33m[31m[ERR][0m       message: [Function],
+[0m
+[33m[31m[ERR][0m       close: [Function]
+[0m
+[33m[31m[ERR][0m     },
+[0m
+[33m[31m[ERR][0m     _eventsCount: 4,
+[0m
+[33m[31m[ERR][0m     _maxListeners: undefined,
+[0m
+[33m[31m[ERR][0m     _binaryType: 'nodebuffer',
+[0m
+[33m[31m[ERR][0m     _closeCode: 1006,
+[0m
+[33m[31m[ERR][0m     _closeFrameReceived: false,
+[0m
+[33m[31m[ERR][0m     _closeFrameSent: false,
+[0m
+[33m[31m[ERR][0m     _closeMessage: <Buffer >,
+[0m
+[33m[31m[ERR][0m     _closeTimer: null,
+[0m
+[33m[31m[ERR][0m     _errorEmitted: true,
+[0m
+[33m[31m[ERR][0m     _extensions: {},
+[0m
+[33m[31m[ERR][0m     _paused: false,
+[0m
+[33m[31m[ERR][0m     _protocol: '',
+[0m
+[33m[31m[ERR][0m     _readyState: 3,
+[0m
+[33m[31m[ERR][0m     _receiver: null,
+[0m
+[33m[31m[ERR][0m     _sender: null,
+[0m
+[33m[31m[ERR][0m     _socket: null,
+[0m
+[33m[31m[ERR][0m     _bufferedAmount: 0,
+[0m
+[33m[31m[ERR][0m     _isServer: false,
+[0m
+[33m[31m[ERR][0m     _redirects: 0,
+[0m
+[33m[31m[ERR][0m     _autoPong: true,
+[0m
+[33m[31m[ERR][0m     _closeTimeout: 30000,
+[0m
+[33m[31m[ERR][0m     _url: 'ws://localhost:3000/host',
+[0m
+[33m[31m[ERR][0m     _req: null,
+[0m
+[33m[31m[ERR][0m     Symbol(shapeMode): false,
+[0m
+[33m[31m[ERR][0m     Symbol(kCapture): false
+[0m
+[33m[31m[ERR][0m   },
+[0m
+[33m[31m[ERR][0m   Symbol(kType): 'error',
+[0m
+[33m[31m[ERR][0m   Symbol(kError): AggregateError [ECONNREFUSED]: 
+[0m
+[33m[31m[ERR][0m       at internalConnectMultiple (node:net:1339:18)
+[0m
+[33m[31m[ERR][0m       at afterConnectMultiple (node:net:1942:7) {
+[0m
+[33m[31m[ERR][0m     code: 'ECONNREFUSED',
+[0m
+[33m[31m[ERR][0m     [errors]: [ [Error], [Error] ]
+[0m
+[33m[31m[ERR][0m   },
+[0m
+[33m[31m[ERR][0m   Symbol(kMessage): ''
+[0m
+[33m[31m[ERR][0m }
+[0m
+[33m[36m[OUT][0m Waiting for host room id...
+[0m
+[33m[36m[OUT][0m Retrying WRM connection...
+[0m
+[33m[36m[OUT][0m Error opening room socket to room manager
+[0m
+[33m[36m[OUT][0m Room socket closed with room manager. Retrying in 5 seconds.
+[0m
+[33m[31m[ERR][0m Failed to restart ErrorEvent {
+[0m
+[33m[31m[ERR][0m   Symbol(kTarget): WebSocket {
+[0m
+[33m[31m[ERR][0m     _events: [Object: null prototype] {
+[0m
+[33m[31m[ERR][0m       open: [Function],
+[0m
+[33m[31m[ERR][0m       error: [Function],
+[0m
+[33m[31m[ERR][0m       message: [Function],
+[0m
+[33m[31m[ERR][0m       close: [Function]
+[0m
+[33m[31m[ERR][0m     },
+[0m
+[33m[31m[ERR][0m     _eventsCount: 4,
+[0m
+[33m[31m[ERR][0m     _maxListeners: undefined,
+[0m
+[33m[31m[ERR][0m     _binaryType: 'nodebuffer',
+[0m
+[33m[31m[ERR][0m     _closeCode: 1006,
+[0m
+[33m[31m[ERR][0m     _closeFrameReceived: false,
+[0m
+[33m[31m[ERR][0m     _closeFrameSent: false,
+[0m
+[33m[31m[ERR][0m     _closeMessage: <Buffer >,
+[0m
+[33m[31m[ERR][0m     _closeTimer: null,
+[0m
+[33m[31m[ERR][0m     _errorEmitted: true,
+[0m
+[33m[31m[ERR][0m     _extensions: {},
+[0m
+[33m[31m[ERR][0m     _paused: false,
+[0m
+[33m[31m[ERR][0m     _protocol: '',
+[0m
+[33m[31m[ERR][0m     _readyState: 3,
+[0m
+[33m[31m[ERR][0m     _receiver: null,
+[0m
+[33m[31m[ERR][0m     _sender: null,
+[0m
+[33m[31m[ERR][0m     _socket: null,
+[0m
+[33m[31m[ERR][0m     _bufferedAmount: 0,
+[0m
+[33m[31m[ERR][0m     _isServer: false,
+[0m
+[33m[31m[ERR][0m     _redirects: 0,
+[0m
+[33m[31m[ERR][0m     _autoPong: true,
+[0m
+[33m[31m[ERR][0m     _closeTimeout: 30000,
+[0m
+[33m[31m[ERR][0m     _url: 'ws://localhost:3000/host',
+[0m
+[33m[31m[ERR][0m     _req: null,
+[0m
+[33m[31m[ERR][0m     Symbol(shapeMode): false,
+[0m
+[33m[31m[ERR][0m     Symbol(kCapture): false
+[0m
+[33m[31m[ERR][0m   },
+[0m
+[33m[31m[ERR][0m   Symbol(kType): 'error',
+[0m
+[33m[31m[ERR][0m   Symbol(kError): AggregateError [ECONNREFUSED]: 
+[0m
+[33m[31m[ERR][0m       at internalConnectMultiple (node:net:1339:18)
+[0m
+[33m[31m[ERR][0m       at afterConnectMultiple (node:net:1942:7) {
+[0m
+[33m[31m[ERR][0m     code: 'ECONNREFUSED',
+[0m
+[33m[31m[ERR][0m     [errors]: [ [Error], [Error] ]
+[0m
+[33m[31m[ERR][0m   },
+[0m
+[33m[31m[ERR][0m   Symbol(kMessage): ''
+[0m
+[33m[31m[ERR][0m }
+[0m
+[33m[36m[OUT][0m Waiting for host room id...
+[0m
+[33m[36m[OUT][0m Retrying WRM connection...
+[0m
+[33m[36m[OUT][0m Error opening room socket to room manager
+[0m
+[33m[36m[OUT][0m Room socket closed with room manager. Retrying in 5 seconds.
+[0m
+[33m[31m[ERR][0m Failed to restart ErrorEvent {
+[0m
+[33m[31m[ERR][0m   Symbol(kTarget): WebSocket {
+[0m
+[33m[31m[ERR][0m     _events: [Object: null prototype] {
+[0m
+[33m[31m[ERR][0m       open: [Function],
+[0m
+[33m[31m[ERR][0m       error: [Function],
+[0m
+[33m[31m[ERR][0m       message: [Function],
+[0m
+[33m[31m[ERR][0m       close: [Function]
+[0m
+[33m[31m[ERR][0m     },
+[0m
+[33m[31m[ERR][0m     _eventsCount: 4,
+[0m
+[33m[31m[ERR][0m     _maxListeners: undefined,
+[0m
+[33m[31m[ERR][0m     _binaryType: 'nodebuffer',
+[0m
+[33m[31m[ERR][0m     _closeCode: 1006,
+[0m
+[33m[31m[ERR][0m     _closeFrameReceived: false,
+[0m
+[33m[31m[ERR][0m     _closeFrameSent: false,
+[0m
+[33m[31m[ERR][0m     _closeMessage: <Buffer >,
+[0m
+[33m[31m[ERR][0m     _closeTimer: null,
+[0m
+[33m[31m[ERR][0m     _errorEmitted: true,
+[0m
+[33m[31m[ERR][0m     _extensions: {},
+[0m
+[33m[31m[ERR][0m     _paused: false,
+[0m
+[33m[31m[ERR][0m     _protocol: '',
+[0m
+[33m[31m[ERR][0m     _readyState: 3,
+[0m
+[33m[31m[ERR][0m     _receiver: null,
+[0m
+[33m[31m[ERR][0m     _sender: null,
+[0m
+[33m[31m[ERR][0m     _socket: null,
+[0m
+[33m[31m[ERR][0m     _bufferedAmount: 0,
+[0m
+[33m[31m[ERR][0m     _isServer: false,
+[0m
+[33m[31m[ERR][0m     _redirects: 0,
+[0m
+[33m[31m[ERR][0m     _autoPong: true,
+[0m
+[33m[31m[ERR][0m     _closeTimeout: 30000,
+[0m
+[33m[31m[ERR][0m     _url: 'ws://localhost:3000/host',
+[0m
+[33m[31m[ERR][0m     _req: null,
+[0m
+[33m[31m[ERR][0m     Symbol(shapeMode): false,
+[0m
+[33m[31m[ERR][0m     Symbol(kCapture): false
+[0m
+[33m[31m[ERR][0m   },
+[0m
+[33m[31m[ERR][0m   Symbol(kType): 'error',
+[0m
+[33m[31m[ERR][0m   Symbol(kError): AggregateError [ECONNREFUSED]: 
+[0m
+[33m[31m[ERR][0m       at internalConnectMultiple (node:net:1339:18)
+[0m
+[33m[31m[ERR][0m       at afterConnectMultiple (node:net:1942:7) {
+[0m
+[33m[31m[ERR][0m     code: 'ECONNREFUSED',
+[0m
+[33m[31m[ERR][0m     [errors]: [ [Error], [Error] ]
+[0m
+[33m[31m[ERR][0m   },
+[0m
+[33m[31m[ERR][0m   Symbol(kMessage): ''
+[0m
+[33m[31m[ERR][0m }
+[0m
+[33m[36m[OUT][0m Waiting for host room id...
+[0m
+[33m[36m[OUT][0m Retrying WRM connection...
+[0m
+[33m[36m[OUT][0m Error opening room socket to room manager
+[0m
+[33m[36m[OUT][0m Room socket closed with room manager. Retrying in 5 seconds.
+[0m
+[33m[31m[ERR][0m Failed to restart ErrorEvent {
+[0m
+[33m[31m[ERR][0m   Symbol(kTarget): WebSocket {
+[0m
+[33m[31m[ERR][0m     _events: [Object: null prototype] {
+[0m
+[33m[31m[ERR][0m       open: [Function],
+[0m
+[33m[31m[ERR][0m       error: [Function],
+[0m
+[33m[31m[ERR][0m       message: [Function],
+[0m
+[33m[31m[ERR][0m       close: [Function]
+[0m
+[33m[31m[ERR][0m     },
+[0m
+[33m[31m[ERR][0m     _eventsCount: 4,
+[0m
+[33m[31m[ERR][0m     _maxListeners: undefined,
+[0m
+[33m[31m[ERR][0m     _binaryType: 'nodebuffer',
+[0m
+[33m[31m[ERR][0m     _closeCode: 1006,
+[0m
+[33m[31m[ERR][0m     _closeFrameReceived: false,
+[0m
+[33m[31m[ERR][0m     _closeFrameSent: false,
+[0m
+[33m[31m[ERR][0m     _closeMessage: <Buffer >,
+[0m
+[33m[31m[ERR][0m     _closeTimer: null,
+[0m
+[33m[31m[ERR][0m     _errorEmitted: true,
+[0m
+[33m[31m[ERR][0m     _extensions: {},
+[0m
+[33m[31m[ERR][0m     _paused: false,
+[0m
+[33m[31m[ERR][0m     _protocol: '',
+[0m
+[33m[31m[ERR][0m     _readyState: 3,
+[0m
+[33m[31m[ERR][0m     _receiver: null,
+[0m
+[33m[31m[ERR][0m     _sender: null,
+[0m
+[33m[31m[ERR][0m     _socket: null,
+[0m
+[33m[31m[ERR][0m     _bufferedAmount: 0,
+[0m
+[33m[31m[ERR][0m     _isServer: false,
+[0m
+[33m[31m[ERR][0m     _redirects: 0,
+[0m
+[33m[31m[ERR][0m     _autoPong: true,
+[0m
+[33m[31m[ERR][0m     _closeTimeout: 30000,
+[0m
+[33m[31m[ERR][0m     _url: 'ws://localhost:3000/host',
+[0m
+[33m[31m[ERR][0m     _req: null,
+[0m
+[33m[31m[ERR][0m     Symbol(shapeMode): false,
+[0m
+[33m[31m[ERR][0m     Symbol(kCapture): false
+[0m
+[33m[31m[ERR][0m   },
+[0m
+[33m[31m[ERR][0m   Symbol(kType): 'error',
+[0m
+[33m[31m[ERR][0m   Symbol(kError): AggregateError [ECONNREFUSED]: 
+[0m
+[33m[31m[ERR][0m       at internalConnectMultiple (node:net:1339:18)
+[0m
+[33m[31m[ERR][0m       at afterConnectMultiple (node:net:1942:7) {
+[0m
+[33m[31m[ERR][0m     code: 'ECONNREFUSED',
+[0m
+[33m[31m[ERR][0m     [errors]: [ [Error], [Error] ]
+[0m
+[33m[31m[ERR][0m   },
+[0m
+[33m[31m[ERR][0m   Symbol(kMessage): ''
+[0m
+[33m[31m[ERR][0m }
+[0m
+[33m[36m[OUT][0m Waiting for host room id...
+[0m
+[33m[36m[OUT][0m Retrying WRM connection...
+[0m
+[33m[36m[OUT][0m Error opening room socket to room manager
+[0m
+[33m[36m[OUT][0m Room socket closed with room manager. Retrying in 5 seconds.
+[0m
+[33m[31m[ERR][0m Failed to restart ErrorEvent {
+[0m
+[33m[31m[ERR][0m   Symbol(kTarget): WebSocket {
+[0m
+[33m[31m[ERR][0m     _events: [Object: null prototype] {
+[0m
+[33m[31m[ERR][0m       open: [Function],
+[0m
+[33m[31m[ERR][0m       error: [Function],
+[0m
+[33m[31m[ERR][0m       message: [Function],
+[0m
+[33m[31m[ERR][0m       close: [Function]
+[0m
+[33m[31m[ERR][0m     },
+[0m
+[33m[31m[ERR][0m     _eventsCount: 4,
+[0m
+[33m[31m[ERR][0m     _maxListeners: undefined,
+[0m
+[33m[31m[ERR][0m     _binaryType: 'nodebuffer',
+[0m
+[33m[31m[ERR][0m     _closeCode: 1006,
+[0m
+[33m[31m[ERR][0m     _closeFrameReceived: false,
+[0m
+[33m[31m[ERR][0m     _closeFrameSent: false,
+[0m
+[33m[31m[ERR][0m     _closeMessage: <Buffer >,
+[0m
+[33m[31m[ERR][0m     _closeTimer: null,
+[0m
+[33m[31m[ERR][0m     _errorEmitted: true,
+[0m
+[33m[31m[ERR][0m     _extensions: {},
+[0m
+[33m[31m[ERR][0m     _paused: false,
+[0m
+[33m[31m[ERR][0m     _protocol: '',
+[0m
+[33m[31m[ERR][0m     _readyState: 3,
+[0m
+[33m[31m[ERR][0m     _receiver: null,
+[0m
+[33m[31m[ERR][0m     _sender: null,
+[0m
+[33m[31m[ERR][0m     _socket: null,
+[0m
+[33m[31m[ERR][0m     _bufferedAmount: 0,
+[0m
+[33m[31m[ERR][0m     _isServer: false,
+[0m
+[33m[31m[ERR][0m     _redirects: 0,
+[0m
+[33m[31m[ERR][0m     _autoPong: true,
+[0m
+[33m[31m[ERR][0m     _closeTimeout: 30000,
+[0m
+[33m[31m[ERR][0m     _url: 'ws://localhost:3000/host',
+[0m
+[33m[31m[ERR][0m     _req: null,
+[0m
+[33m[31m[ERR][0m     Symbol(shapeMode): false,
+[0m
+[33m[31m[ERR][0m     Symbol(kCapture): false
+[0m
+[33m[31m[ERR][0m   },
+[0m
+[33m[31m[ERR][0m   Symbol(kType): 'error',
+[0m
+[33m[31m[ERR][0m   Symbol(kError): AggregateError [ECONNREFUSED]: 
+[0m
+[33m[31m[ERR][0m       at internalConnectMultiple (node:net:1339:18)
+[0m
+[33m[31m[ERR][0m       at afterConnectMultiple (node:net:1942:7) {
+[0m
+[33m[31m[ERR][0m     code: 'ECONNREFUSED',
+[0m
+[33m[31m[ERR][0m     [errors]: [ [Error], [Error] ]
+[0m
+[33m[31m[ERR][0m   },
+[0m
+[33m[31m[ERR][0m   Symbol(kMessage): ''
+[0m
+[33m[31m[ERR][0m }
+[0m
+[33m[36m[OUT][0m Waiting for host room id...
+[0m
+[33m[36m[OUT][0m Retrying WRM connection...
+[0m
+[33m[36m[OUT][0m Error opening room socket to room manager
+[0m
+[33m[36m[OUT][0m Room socket closed with room manager. Retrying in 5 seconds.
+[0m
+[33m[31m[ERR][0m Failed to restart ErrorEvent {
+[0m
+[33m[31m[ERR][0m   Symbol(kTarget): WebSocket {
+[0m
+[33m[31m[ERR][0m     _events: [Object: null prototype] {
+[0m
+[33m[31m[ERR][0m       open: [Function],
+[0m
+[33m[31m[ERR][0m       error: [Function],
+[0m
+[33m[31m[ERR][0m       message: [Function],
+[0m
+[33m[31m[ERR][0m       close: [Function]
+[0m
+[33m[31m[ERR][0m     },
+[0m
+[33m[31m[ERR][0m     _eventsCount: 4,
+[0m
+[33m[31m[ERR][0m     _maxListeners: undefined,
+[0m
+[33m[31m[ERR][0m     _binaryType: 'nodebuffer',
+[0m
+[33m[31m[ERR][0m     _closeCode: 1006,
+[0m
+[33m[31m[ERR][0m     _closeFrameReceived: false,
+[0m
+[33m[31m[ERR][0m     _closeFrameSent: false,
+[0m
+[33m[31m[ERR][0m     _closeMessage: <Buffer >,
+[0m
+[33m[31m[ERR][0m     _closeTimer: null,
+[0m
+[33m[31m[ERR][0m     _errorEmitted: true,
+[0m
+[33m[31m[ERR][0m     _extensions: {},
+[0m
+[33m[31m[ERR][0m     _paused: false,
+[0m
+[33m[31m[ERR][0m     _protocol: '',
+[0m
+[33m[31m[ERR][0m     _readyState: 3,
+[0m
+[33m[31m[ERR][0m     _receiver: null,
+[0m
+[33m[31m[ERR][0m     _sender: null,
+[0m
+[33m[31m[ERR][0m     _socket: null,
+[0m
+[33m[31m[ERR][0m     _bufferedAmount: 0,
+[0m
+[33m[31m[ERR][0m     _isServer: false,
+[0m
+[33m[31m[ERR][0m     _redirects: 0,
+[0m
+[33m[31m[ERR][0m     _autoPong: true,
+[0m
+[33m[31m[ERR][0m     _closeTimeout: 30000,
+[0m
+[33m[31m[ERR][0m     _url: 'ws://localhost:3000/host',
+[0m
+[33m[31m[ERR][0m     _req: null,
+[0m
+[33m[31m[ERR][0m     Symbol(shapeMode): false,
+[0m
+[33m[31m[ERR][0m     Symbol(kCapture): false
+[0m
+[33m[31m[ERR][0m   },
+[0m
+[33m[31m[ERR][0m   Symbol(kType): 'error',
+[0m
+[33m[31m[ERR][0m   Symbol(kError): AggregateError [ECONNREFUSED]: 
+[0m
+[33m[31m[ERR][0m       at internalConnectMultiple (node:net:1339:18)
+[0m
+[33m[31m[ERR][0m       at afterConnectMultiple (node:net:1942:7) {
+[0m
+[33m[31m[ERR][0m     code: 'ECONNREFUSED',
+[0m
+[33m[31m[ERR][0m     [errors]: [ [Error], [Error] ]
+[0m
+[33m[31m[ERR][0m   },
+[0m
+[33m[31m[ERR][0m   Symbol(kMessage): ''
+[0m
+[33m[31m[ERR][0m }
+[0m
+[33m[36m[OUT][0m Waiting for host room id...
+[0m
+[33m[36m[OUT][0m Retrying WRM connection...
+[0m
+[33m[36m[OUT][0m Error opening room socket to room manager
+[0m
+[33m[36m[OUT][0m Room socket closed with room manager. Retrying in 5 seconds.
+[0m
+[33m[31m[ERR][0m Failed to restart ErrorEvent {
+[0m
+[33m[31m[ERR][0m   Symbol(kTarget): WebSocket {
+[0m
+[33m[31m[ERR][0m     _events: [Object: null prototype] {
+[0m
+[33m[31m[ERR][0m       open: [Function],
+[0m
+[33m[31m[ERR][0m       error: [Function],
+[0m
+[33m[31m[ERR][0m       message: [Function],
+[0m
+[33m[31m[ERR][0m       close: [Function]
+[0m
+[33m[31m[ERR][0m     },
+[0m
+[33m[31m[ERR][0m     _eventsCount: 4,
+[0m
+[33m[31m[ERR][0m     _maxListeners: undefined,
+[0m
+[33m[31m[ERR][0m     _binaryType: 'nodebuffer',
+[0m
+[33m[31m[ERR][0m     _closeCode: 1006,
+[0m
+[33m[31m[ERR][0m     _closeFrameReceived: false,
+[0m
+[33m[31m[ERR][0m     _closeFrameSent: false,
+[0m
+[33m[31m[ERR][0m     _closeMessage: <Buffer >,
+[0m
+[33m[31m[ERR][0m     _closeTimer: null,
+[0m
+[33m[31m[ERR][0m     _errorEmitted: true,
+[0m
+[33m[31m[ERR][0m     _extensions: {},
+[0m
+[33m[31m[ERR][0m     _paused: false,
+[0m
+[33m[31m[ERR][0m     _protocol: '',
+[0m
+[33m[31m[ERR][0m     _readyState: 3,
+[0m
+[33m[31m[ERR][0m     _receiver: null,
+[0m
+[33m[31m[ERR][0m     _sender: null,
+[0m
+[33m[31m[ERR][0m     _socket: null,
+[0m
+[33m[31m[ERR][0m     _bufferedAmount: 0,
+[0m
+[33m[31m[ERR][0m     _isServer: false,
+[0m
+[33m[31m[ERR][0m     _redirects: 0,
+[0m
+[33m[31m[ERR][0m     _autoPong: true,
+[0m
+[33m[31m[ERR][0m     _closeTimeout: 30000,
+[0m
+[33m[31m[ERR][0m     _url: 'ws://localhost:3000/host',
+[0m
+[33m[31m[ERR][0m     _req: null,
+[0m
+[33m[31m[ERR][0m     Symbol(shapeMode): false,
+[0m
+[33m[31m[ERR][0m     Symbol(kCapture): false
+[0m
+[33m[31m[ERR][0m   },
+[0m
+[33m[31m[ERR][0m   Symbol(kType): 'error',
+[0m
+[33m[31m[ERR][0m   Symbol(kError): AggregateError [ECONNREFUSED]: 
+[0m
+[33m[31m[ERR][0m       at internalConnectMultiple (node:net:1339:18)
+[0m
+[33m[31m[ERR][0m       at afterConnectMultiple (node:net:1942:7) {
+[0m
+[33m[31m[ERR][0m     code: 'ECONNREFUSED',
+[0m
+[33m[31m[ERR][0m     [errors]: [ [Error], [Error] ]
+[0m
+[33m[31m[ERR][0m   },
+[0m
+[33m[31m[ERR][0m   Symbol(kMessage): ''
+[0m
+[33m[31m[ERR][0m }
+[0m
+[33m[36m[OUT][0m Waiting for host room id...
+[0m
+[33m[36m[OUT][0m Retrying WRM connection...
+[0m
+[33m[36m[OUT][0m Error opening room socket to room manager
+[0m
+[33m[36m[OUT][0m Room socket closed with room manager. Retrying in 5 seconds.
+[0m
+[33m[31m[ERR][0m Failed to restart ErrorEvent {
+[0m
+[33m[31m[ERR][0m   Symbol(kTarget): WebSocket {
+[0m
+[33m[31m[ERR][0m     _events: [Object: null prototype] {
+[0m
+[33m[31m[ERR][0m       open: [Function],
+[0m
+[33m[31m[ERR][0m       error: [Function],
+[0m
+[33m[31m[ERR][0m       message: [Function],
+[0m
+[33m[31m[ERR][0m       close: [Function]
+[0m
+[33m[31m[ERR][0m     },
+[0m
+[33m[31m[ERR][0m     _eventsCount: 4,
+[0m
+[33m[31m[ERR][0m     _maxListeners: undefined,
+[0m
+[33m[31m[ERR][0m     _binaryType: 'nodebuffer',
+[0m
+[33m[31m[ERR][0m     _closeCode: 1006,
+[0m
+[33m[31m[ERR][0m     _closeFrameReceived: false,
+[0m
+[33m[31m[ERR][0m     _closeFrameSent: false,
+[0m
+[33m[31m[ERR][0m     _closeMessage: <Buffer >,
+[0m
+[33m[31m[ERR][0m     _closeTimer: null,
+[0m
+[33m[31m[ERR][0m     _errorEmitted: true,
+[0m
+[33m[31m[ERR][0m     _extensions: {},
+[0m
+[33m[31m[ERR][0m     _paused: false,
+[0m
+[33m[31m[ERR][0m     _protocol: '',
+[0m
+[33m[31m[ERR][0m     _readyState: 3,
+[0m
+[33m[31m[ERR][0m     _receiver: null,
+[0m
+[33m[31m[ERR][0m     _sender: null,
+[0m
+[33m[31m[ERR][0m     _socket: null,
+[0m
+[33m[31m[ERR][0m     _bufferedAmount: 0,
+[0m
+[33m[31m[ERR][0m     _isServer: false,
+[0m
+[33m[31m[ERR][0m     _redirects: 0,
+[0m
+[33m[31m[ERR][0m     _autoPong: true,
+[0m
+[33m[31m[ERR][0m     _closeTimeout: 30000,
+[0m
+[33m[31m[ERR][0m     _url: 'ws://localhost:3000/host',
+[0m
+[33m[31m[ERR][0m     _req: null,
+[0m
+[33m[31m[ERR][0m     Symbol(shapeMode): false,
+[0m
+[33m[31m[ERR][0m     Symbol(kCapture): false
+[0m
+[33m[31m[ERR][0m   },
+[0m
+[33m[31m[ERR][0m   Symbol(kType): 'error',
+[0m
+[33m[31m[ERR][0m   Symbol(kError): AggregateError [ECONNREFUSED]: 
+[0m
+[33m[31m[ERR][0m       at internalConnectMultiple (node:net:1339:18)
+[0m
+[33m[31m[ERR][0m       at afterConnectMultiple (node:net:1942:7) {
+[0m
+[33m[31m[ERR][0m     code: 'ECONNREFUSED',
+[0m
+[33m[31m[ERR][0m     [errors]: [ [Error], [Error] ]
+[0m
+[33m[31m[ERR][0m   },
+[0m
+[33m[31m[ERR][0m   Symbol(kMessage): ''
+[0m
+[33m[31m[ERR][0m }
+[0m
+[33m[36m[OUT][0m Waiting for host room id...
+[0m
+[33m[36m[OUT][0m Retrying WRM connection...
+[0m
+[33m[36m[OUT][0m Error opening room socket to room manager
+[0m
+[33m[36m[OUT][0m Room socket closed with room manager. Retrying in 5 seconds.
+[0m
+[33m[31m[ERR][0m Failed to restart ErrorEvent {
+[0m
+[33m[31m[ERR][0m   Symbol(kTarget): WebSocket {
+[0m
+[33m[31m[ERR][0m     _events: [Object: null prototype] {
+[0m
+[33m[31m[ERR][0m       open: [Function],
+[0m
+[33m[31m[ERR][0m       error: [Function],
+[0m
+[33m[31m[ERR][0m       message: [Function],
+[0m
+[33m[31m[ERR][0m       close: [Function]
+[0m
+[33m[31m[ERR][0m     },
+[0m
+[33m[31m[ERR][0m     _eventsCount: 4,
+[0m
+[33m[31m[ERR][0m     _maxListeners: undefined,
+[0m
+[33m[31m[ERR][0m     _binaryType: 'nodebuffer',
+[0m
+[33m[31m[ERR][0m     _closeCode: 1006,
+[0m
+[33m[31m[ERR][0m     _closeFrameReceived: false,
+[0m
+[33m[31m[ERR][0m     _closeFrameSent: false,
+[0m
+[33m[31m[ERR][0m     _closeMessage: <Buffer >,
+[0m
+[33m[31m[ERR][0m     _closeTimer: null,
+[0m
+[33m[31m[ERR][0m     _errorEmitted: true,
+[0m
+[33m[31m[ERR][0m     _extensions: {},
+[0m
+[33m[31m[ERR][0m     _paused: false,
+[0m
+[33m[31m[ERR][0m     _protocol: '',
+[0m
+[33m[31m[ERR][0m     _readyState: 3,
+[0m
+[33m[31m[ERR][0m     _receiver: null,
+[0m
+[33m[31m[ERR][0m     _sender: null,
+[0m
+[33m[31m[ERR][0m     _socket: null,
+[0m
+[33m[31m[ERR][0m     _bufferedAmount: 0,
+[0m
+[33m[31m[ERR][0m     _isServer: false,
+[0m
+[33m[31m[ERR][0m     _redirects: 0,
+[0m
+[33m[31m[ERR][0m     _autoPong: true,
+[0m
+[33m[31m[ERR][0m     _closeTimeout: 30000,
+[0m
+[33m[31m[ERR][0m     _url: 'ws://localhost:3000/host',
+[0m
+[33m[31m[ERR][0m     _req: null,
+[0m
+[33m[31m[ERR][0m     Symbol(shapeMode): false,
+[0m
+[33m[31m[ERR][0m     Symbol(kCapture): false
+[0m
+[33m[31m[ERR][0m   },
+[0m
+[33m[31m[ERR][0m   Symbol(kType): 'error',
+[0m
+[33m[31m[ERR][0m   Symbol(kError): AggregateError [ECONNREFUSED]: 
+[0m
+[33m[31m[ERR][0m       at internalConnectMultiple (node:net:1339:18)
+[0m
+[33m[31m[ERR][0m       at afterConnectMultiple (node:net:1942:7) {
+[0m
+[33m[31m[ERR][0m     code: 'ECONNREFUSED',
+[0m
+[33m[31m[ERR][0m     [errors]: [ [Error], [Error] ]
+[0m
+[33m[31m[ERR][0m   },
+[0m
+[33m[31m[ERR][0m   Symbol(kMessage): ''
+[0m
+[33m[31m[ERR][0m }
+[0m
+[33m[36m[OUT][0m Waiting for host room id...
+[0m
+[33m[36m[OUT][0m Retrying WRM connection...
+[0m
+[33m[36m[OUT][0m Error opening room socket to room manager
+[0m
+[33m[36m[OUT][0m Room socket closed with room manager. Retrying in 5 seconds.
+[0m
+[33m[31m[ERR][0m Failed to restart ErrorEvent {
+[0m
+[33m[31m[ERR][0m   Symbol(kTarget): WebSocket {
+[0m
+[33m[31m[ERR][0m     _events: [Object: null prototype] {
+[0m
+[33m[31m[ERR][0m       open: [Function],
+[0m
+[33m[31m[ERR][0m       error: [Function],
+[0m
+[33m[31m[ERR][0m       message: [Function],
+[0m
+[33m[31m[ERR][0m       close: [Function]
+[0m
+[33m[31m[ERR][0m     },
+[0m
+[33m[31m[ERR][0m     _eventsCount: 4,
+[0m
+[33m[31m[ERR][0m     _maxListeners: undefined,
+[0m
+[33m[31m[ERR][0m     _binaryType: 'nodebuffer',
+[0m
+[33m[31m[ERR][0m     _closeCode: 1006,
+[0m
+[33m[31m[ERR][0m     _closeFrameReceived: false,
+[0m
+[33m[31m[ERR][0m     _closeFrameSent: false,
+[0m
+[33m[31m[ERR][0m     _closeMessage: <Buffer >,
+[0m
+[33m[31m[ERR][0m     _closeTimer: null,
+[0m
+[33m[31m[ERR][0m     _errorEmitted: true,
+[0m
+[33m[31m[ERR][0m     _extensions: {},
+[0m
+[33m[31m[ERR][0m     _paused: false,
+[0m
+[33m[31m[ERR][0m     _protocol: '',
+[0m
+[33m[31m[ERR][0m     _readyState: 3,
+[0m
+[33m[31m[ERR][0m     _receiver: null,
+[0m
+[33m[31m[ERR][0m     _sender: null,
+[0m
+[33m[31m[ERR][0m     _socket: null,
+[0m
+[33m[31m[ERR][0m     _bufferedAmount: 0,
+[0m
+[33m[31m[ERR][0m     _isServer: false,
+[0m
+[33m[31m[ERR][0m     _redirects: 0,
+[0m
+[33m[31m[ERR][0m     _autoPong: true,
+[0m
+[33m[31m[ERR][0m     _closeTimeout: 30000,
+[0m
+[33m[31m[ERR][0m     _url: 'ws://localhost:3000/host',
+[0m
+[33m[31m[ERR][0m     _req: null,
+[0m
+[33m[31m[ERR][0m     Symbol(shapeMode): false,
+[0m
+[33m[31m[ERR][0m     Symbol(kCapture): false
+[0m
+[33m[31m[ERR][0m   },
+[0m
+[33m[31m[ERR][0m   Symbol(kType): 'error',
+[0m
+[33m[31m[ERR][0m   Symbol(kError): AggregateError [ECONNREFUSED]: 
+[0m
+[33m[31m[ERR][0m       at internalConnectMultiple (node:net:1339:18)
+[0m
+[33m[31m[ERR][0m       at afterConnectMultiple (node:net:1942:7) {
+[0m
+[33m[31m[ERR][0m     code: 'ECONNREFUSED',
+[0m
+[33m[31m[ERR][0m     [errors]: [ [Error], [Error] ]
+[0m
+[33m[31m[ERR][0m   },
+[0m
+[33m[31m[ERR][0m   Symbol(kMessage): ''
+[0m
+[33m[31m[ERR][0m }
+[0m
+[33m[36m[OUT][0m Waiting for host room id...
+[0m
+[33m[36m[OUT][0m Retrying WRM connection...
+[0m
+[33m[36m[OUT][0m Error opening room socket to room manager
+[0m
+[33m[36m[OUT][0m Room socket closed with room manager. Retrying in 5 seconds.
+[0m
+[33m[31m[ERR][0m Failed to restart ErrorEvent {
+[0m
+[33m[31m[ERR][0m   Symbol(kTarget): WebSocket {
+[0m
+[33m[31m[ERR][0m     _events: [Object: null prototype] {
+[0m
+[33m[31m[ERR][0m       open: [Function],
+[0m
+[33m[31m[ERR][0m       error: [Function],
+[0m
+[33m[31m[ERR][0m       message: [Function],
+[0m
+[33m[31m[ERR][0m       close: [Function]
+[0m
+[33m[31m[ERR][0m     },
+[0m
+[33m[31m[ERR][0m     _eventsCount: 4,
+[0m
+[33m[31m[ERR][0m     _maxListeners: undefined,
+[0m
+[33m[31m[ERR][0m     _binaryType: 'nodebuffer',
+[0m
+[33m[31m[ERR][0m     _closeCode: 1006,
+[0m
+[33m[31m[ERR][0m     _closeFrameReceived: false,
+[0m
+[33m[31m[ERR][0m     _closeFrameSent: false,
+[0m
+[33m[31m[ERR][0m     _closeMessage: <Buffer >,
+[0m
+[33m[31m[ERR][0m     _closeTimer: null,
+[0m
+[33m[31m[ERR][0m     _errorEmitted: true,
+[0m
+[33m[31m[ERR][0m     _extensions: {},
+[0m
+[33m[31m[ERR][0m     _paused: false,
+[0m
+[33m[31m[ERR][0m     _protocol: '',
+[0m
+[33m[31m[ERR][0m     _readyState: 3,
+[0m
+[33m[31m[ERR][0m     _receiver: null,
+[0m
+[33m[31m[ERR][0m     _sender: null,
+[0m
+[33m[31m[ERR][0m     _socket: null,
+[0m
+[33m[31m[ERR][0m     _bufferedAmount: 0,
+[0m
+[33m[31m[ERR][0m     _isServer: false,
+[0m
+[33m[31m[ERR][0m     _redirects: 0,
+[0m
+[33m[31m[ERR][0m     _autoPong: true,
+[0m
+[33m[31m[ERR][0m     _closeTimeout: 30000,
+[0m
+[33m[31m[ERR][0m     _url: 'ws://localhost:3000/host',
+[0m
+[33m[31m[ERR][0m     _req: null,
+[0m
+[33m[31m[ERR][0m     Symbol(shapeMode): false,
+[0m
+[33m[31m[ERR][0m     Symbol(kCapture): false
+[0m
+[33m[31m[ERR][0m   },
+[0m
+[33m[31m[ERR][0m   Symbol(kType): 'error',
+[0m
+[33m[31m[ERR][0m   Symbol(kError): AggregateError [ECONNREFUSED]: 
+[0m
+[33m[31m[ERR][0m       at internalConnectMultiple (node:net:1339:18)
+[0m
+[33m[31m[ERR][0m       at afterConnectMultiple (node:net:1942:7) {
+[0m
+[33m[31m[ERR][0m     code: 'ECONNREFUSED',
+[0m
+[33m[31m[ERR][0m     [errors]: [ [Error], [Error] ]
+[0m
+[33m[31m[ERR][0m   },
+[0m
+[33m[31m[ERR][0m   Symbol(kMessage): ''
+[0m
+[33m[31m[ERR][0m }
+[0m
+[33m[36m[OUT][0m Waiting for host room id...
+[0m
+[33m[36m[OUT][0m Retrying WRM connection...
+[0m
+[33m[36m[OUT][0m Error opening room socket to room manager
+[0m
+[33m[36m[OUT][0m Room socket closed with room manager. Retrying in 5 seconds.
+[0m
+[33m[31m[ERR][0m Failed to restart ErrorEvent {
+[0m
+[33m[31m[ERR][0m   Symbol(kTarget): WebSocket {
+[0m
+[33m[31m[ERR][0m     _events: [Object: null prototype] {
+[0m
+[33m[31m[ERR][0m       open: [Function],
+[0m
+[33m[31m[ERR][0m       error: [Function],
+[0m
+[33m[31m[ERR][0m       message: [Function],
+[0m
+[33m[31m[ERR][0m       close: [Function]
+[0m
+[33m[31m[ERR][0m     },
+[0m
+[33m[31m[ERR][0m     _eventsCount: 4,
+[0m
+[33m[31m[ERR][0m     _maxListeners: undefined,
+[0m
+[33m[31m[ERR][0m     _binaryType: 'nodebuffer',
+[0m
+[33m[31m[ERR][0m     _closeCode: 1006,
+[0m
+[33m[31m[ERR][0m     _closeFrameReceived: false,
+[0m
+[33m[31m[ERR][0m     _closeFrameSent: false,
+[0m
+[33m[31m[ERR][0m     _closeMessage: <Buffer >,
+[0m
+[33m[31m[ERR][0m     _closeTimer: null,
+[0m
+[33m[31m[ERR][0m     _errorEmitted: true,
+[0m
+[33m[31m[ERR][0m     _extensions: {},
+[0m
+[33m[31m[ERR][0m     _paused: false,
+[0m
+[33m[31m[ERR][0m     _protocol: '',
+[0m
+[33m[31m[ERR][0m     _readyState: 3,
+[0m
+[33m[31m[ERR][0m     _receiver: null,
+[0m
+[33m[31m[ERR][0m     _sender: null,
+[0m
+[33m[31m[ERR][0m     _socket: null,
+[0m
+[33m[31m[ERR][0m     _bufferedAmount: 0,
+[0m
+[33m[31m[ERR][0m     _isServer: false,
+[0m
+[33m[31m[ERR][0m     _redirects: 0,
+[0m
+[33m[31m[ERR][0m     _autoPong: true,
+[0m
+[33m[31m[ERR][0m     _closeTimeout: 30000,
+[0m
+[33m[31m[ERR][0m     _url: 'ws://localhost:3000/host',
+[0m
+[33m[31m[ERR][0m     _req: null,
+[0m
+[33m[31m[ERR][0m     Symbol(shapeMode): false,
+[0m
+[33m[31m[ERR][0m     Symbol(kCapture): false
+[0m
+[33m[31m[ERR][0m   },
+[0m
+[33m[31m[ERR][0m   Symbol(kType): 'error',
+[0m
+[33m[31m[ERR][0m   Symbol(kError): AggregateError [ECONNREFUSED]: 
+[0m
+[33m[31m[ERR][0m       at internalConnectMultiple (node:net:1339:18)
+[0m
+[33m[31m[ERR][0m       at afterConnectMultiple (node:net:1942:7) {
+[0m
+[33m[31m[ERR][0m     code: 'ECONNREFUSED',
+[0m
+[33m[31m[ERR][0m     [errors]: [ [Error], [Error] ]
+[0m
+[33m[31m[ERR][0m   },
+[0m
+[33m[31m[ERR][0m   Symbol(kMessage): ''
+[0m
+[33m[31m[ERR][0m }
+[0m
+[33m[36m[OUT][0m Waiting for host room id...
+[0m
+[33m[36m[OUT][0m Retrying WRM connection...
+[0m
+[33m[36m[OUT][0m Error opening room socket to room manager
+[0m
+[33m[36m[OUT][0m Room socket closed with room manager. Retrying in 5 seconds.
+[0m
+[33m[31m[ERR][0m Failed to restart ErrorEvent {
+[0m
+[33m[31m[ERR][0m   Symbol(kTarget): WebSocket {
+[0m
+[33m[31m[ERR][0m     _events: [Object: null prototype] {
+[0m
+[33m[31m[ERR][0m       open: [Function],
+[0m
+[33m[31m[ERR][0m       error: [Function],
+[0m
+[33m[31m[ERR][0m       message: [Function],
+[0m
+[33m[31m[ERR][0m       close: [Function]
+[0m
+[33m[31m[ERR][0m     },
+[0m
+[33m[31m[ERR][0m     _eventsCount: 4,
+[0m
+[33m[31m[ERR][0m     _maxListeners: undefined,
+[0m
+[33m[31m[ERR][0m     _binaryType: 'nodebuffer',
+[0m
+[33m[31m[ERR][0m     _closeCode: 1006,
+[0m
+[33m[31m[ERR][0m     _closeFrameReceived: false,
+[0m
+[33m[31m[ERR][0m     _closeFrameSent: false,
+[0m
+[33m[31m[ERR][0m     _closeMessage: <Buffer >,
+[0m
+[33m[31m[ERR][0m     _closeTimer: null,
+[0m
+[33m[31m[ERR][0m     _errorEmitted: true,
+[0m
+[33m[31m[ERR][0m     _extensions: {},
+[0m
+[33m[31m[ERR][0m     _paused: false,
+[0m
+[33m[31m[ERR][0m     _protocol: '',
+[0m
+[33m[31m[ERR][0m     _readyState: 3,
+[0m
+[33m[31m[ERR][0m     _receiver: null,
+[0m
+[33m[31m[ERR][0m     _sender: null,
+[0m
+[33m[31m[ERR][0m     _socket: null,
+[0m
+[33m[31m[ERR][0m     _bufferedAmount: 0,
+[0m
+[33m[31m[ERR][0m     _isServer: false,
+[0m
+[33m[31m[ERR][0m     _redirects: 0,
+[0m
+[33m[31m[ERR][0m     _autoPong: true,
+[0m
+[33m[31m[ERR][0m     _closeTimeout: 30000,
+[0m
+[33m[31m[ERR][0m     _url: 'ws://localhost:3000/host',
+[0m
+[33m[31m[ERR][0m     _req: null,
+[0m
+[33m[31m[ERR][0m     Symbol(shapeMode): false,
+[0m
+[33m[31m[ERR][0m     Symbol(kCapture): false
+[0m
+[33m[31m[ERR][0m   },
+[0m
+[33m[31m[ERR][0m   Symbol(kType): 'error',
+[0m
+[33m[31m[ERR][0m   Symbol(kError): AggregateError [ECONNREFUSED]: 
+[0m
+[33m[31m[ERR][0m       at internalConnectMultiple (node:net:1339:18)
+[0m
+[33m[31m[ERR][0m       at afterConnectMultiple (node:net:1942:7) {
+[0m
+[33m[31m[ERR][0m     code: 'ECONNREFUSED',
+[0m
+[33m[31m[ERR][0m     [errors]: [ [Error], [Error] ]
+[0m
+[33m[31m[ERR][0m   },
+[0m
+[33m[31m[ERR][0m   Symbol(kMessage): ''
+[0m
+[33m[31m[ERR][0m }
+[0m
+[33m[36m[OUT][0m Waiting for host room id...
+[0m
+[33m[36m[OUT][0m Retrying WRM connection...
+[0m
+[33m[36m[OUT][0m Error opening room socket to room manager
+[0m
+[33m[36m[OUT][0m Room socket closed with room manager. Retrying in 5 seconds.
+[0m
+[33m[31m[ERR][0m Failed to restart ErrorEvent {
+[0m
+[33m[31m[ERR][0m   Symbol(kTarget): WebSocket {
+[0m
+[33m[31m[ERR][0m     _events: [Object: null prototype] {
+[0m
+[33m[31m[ERR][0m       open: [Function],
+[0m
+[33m[31m[ERR][0m       error: [Function],
+[0m
+[33m[31m[ERR][0m       message: [Function],
+[0m
+[33m[31m[ERR][0m       close: [Function]
+[0m
+[33m[31m[ERR][0m     },
+[0m
+[33m[31m[ERR][0m     _eventsCount: 4,
+[0m
+[33m[31m[ERR][0m     _maxListeners: undefined,
+[0m
+[33m[31m[ERR][0m     _binaryType: 'nodebuffer',
+[0m
+[33m[31m[ERR][0m     _closeCode: 1006,
+[0m
+[33m[31m[ERR][0m     _closeFrameReceived: false,
+[0m
+[33m[31m[ERR][0m     _closeFrameSent: false,
+[0m
+[33m[31m[ERR][0m     _closeMessage: <Buffer >,
+[0m
+[33m[31m[ERR][0m     _closeTimer: null,
+[0m
+[33m[31m[ERR][0m     _errorEmitted: true,
+[0m
+[33m[31m[ERR][0m     _extensions: {},
+[0m
+[33m[31m[ERR][0m     _paused: false,
+[0m
+[33m[31m[ERR][0m     _protocol: '',
+[0m
+[33m[31m[ERR][0m     _readyState: 3,
+[0m
+[33m[31m[ERR][0m     _receiver: null,
+[0m
+[33m[31m[ERR][0m     _sender: null,
+[0m
+[33m[31m[ERR][0m     _socket: null,
+[0m
+[33m[31m[ERR][0m     _bufferedAmount: 0,
+[0m
+[33m[31m[ERR][0m     _isServer: false,
+[0m
+[33m[31m[ERR][0m     _redirects: 0,
+[0m
+[33m[31m[ERR][0m     _autoPong: true,
+[0m
+[33m[31m[ERR][0m     _closeTimeout: 30000,
+[0m
+[33m[31m[ERR][0m     _url: 'ws://localhost:3000/host',
+[0m
+[33m[31m[ERR][0m     _req: null,
+[0m
+[33m[31m[ERR][0m     Symbol(shapeMode): false,
+[0m
+[33m[31m[ERR][0m     Symbol(kCapture): false
+[0m
+[33m[31m[ERR][0m   },
+[0m
+[33m[31m[ERR][0m   Symbol(kType): 'error',
+[0m
+[33m[31m[ERR][0m   Symbol(kError): AggregateError [ECONNREFUSED]: 
+[0m
+[33m[31m[ERR][0m       at internalConnectMultiple (node:net:1339:18)
+[0m
+[33m[31m[ERR][0m       at afterConnectMultiple (node:net:1942:7) {
+[0m
+[33m[31m[ERR][0m     code: 'ECONNREFUSED',
+[0m
+[33m[31m[ERR][0m     [errors]: [ [Error], [Error] ]
+[0m
+[33m[31m[ERR][0m   },
+[0m
+[33m[31m[ERR][0m   Symbol(kMessage): ''
+[0m
+[33m[31m[ERR][0m }
+[0m
+[33m[36m[OUT][0m Waiting for host room id...
+[0m
+[33m[36m[OUT][0m Retrying WRM connection...
+[0m
+[33m[36m[OUT][0m Error opening room socket to room manager
+[0m
+[33m[36m[OUT][0m Room socket closed with room manager. Retrying in 5 seconds.
+[0m
+[33m[31m[ERR][0m Failed to restart ErrorEvent {
+[0m
+[33m[31m[ERR][0m   Symbol(kTarget): WebSocket {
+[0m
+[33m[31m[ERR][0m     _events: [Object: null prototype] {
+[0m
+[33m[31m[ERR][0m       open: [Function],
+[0m
+[33m[31m[ERR][0m       error: [Function],
+[0m
+[33m[31m[ERR][0m       message: [Function],
+[0m
+[33m[31m[ERR][0m       close: [Function]
+[0m
+[33m[31m[ERR][0m     },
+[0m
+[33m[31m[ERR][0m     _eventsCount: 4,
+[0m
+[33m[31m[ERR][0m     _maxListeners: undefined,
+[0m
+[33m[31m[ERR][0m     _binaryType: 'nodebuffer',
+[0m
+[33m[31m[ERR][0m     _closeCode: 1006,
+[0m
+[33m[31m[ERR][0m     _closeFrameReceived: false,
+[0m
+[33m[31m[ERR][0m     _closeFrameSent: false,
+[0m
+[33m[31m[ERR][0m     _closeMessage: <Buffer >,
+[0m
+[33m[31m[ERR][0m     _closeTimer: null,
+[0m
+[33m[31m[ERR][0m     _errorEmitted: true,
+[0m
+[33m[31m[ERR][0m     _extensions: {},
+[0m
+[33m[31m[ERR][0m     _paused: false,
+[0m
+[33m[31m[ERR][0m     _protocol: '',
+[0m
+[33m[31m[ERR][0m     _readyState: 3,
+[0m
+[33m[31m[ERR][0m     _receiver: null,
+[0m
+[33m[31m[ERR][0m     _sender: null,
+[0m
+[33m[31m[ERR][0m     _socket: null,
+[0m
+[33m[31m[ERR][0m     _bufferedAmount: 0,
+[0m
+[33m[31m[ERR][0m     _isServer: false,
+[0m
+[33m[31m[ERR][0m     _redirects: 0,
+[0m
+[33m[31m[ERR][0m     _autoPong: true,
+[0m
+[33m[31m[ERR][0m     _closeTimeout: 30000,
+[0m
+[33m[31m[ERR][0m     _url: 'ws://localhost:3000/host',
+[0m
+[33m[31m[ERR][0m     _req: null,
+[0m
+[33m[31m[ERR][0m     Symbol(shapeMode): false,
+[0m
+[33m[31m[ERR][0m     Symbol(kCapture): false
+[0m
+[33m[31m[ERR][0m   },
+[0m
+[33m[31m[ERR][0m   Symbol(kType): 'error',
+[0m
+[33m[31m[ERR][0m   Symbol(kError): AggregateError [ECONNREFUSED]: 
+[0m
+[33m[31m[ERR][0m       at internalConnectMultiple (node:net:1339:18)
+[0m
+[33m[31m[ERR][0m       at afterConnectMultiple (node:net:1942:7) {
+[0m
+[33m[31m[ERR][0m     code: 'ECONNREFUSED',
+[0m
+[33m[31m[ERR][0m     [errors]: [ [Error], [Error] ]
+[0m
+[33m[31m[ERR][0m   },
+[0m
+[33m[31m[ERR][0m   Symbol(kMessage): ''
+[0m
+[33m[31m[ERR][0m }
+[0m
+[33m[36m[OUT][0m Waiting for host room id...
+[0m
+[33m[36m[OUT][0m Retrying WRM connection...
+[0m
+[33m[36m[OUT][0m Error opening room socket to room manager
+[0m
+[33m[36m[OUT][0m Room socket closed with room manager. Retrying in 5 seconds.
+[0m
+[33m[31m[ERR][0m Failed to restart ErrorEvent {
+[0m
+[33m[31m[ERR][0m   Symbol(kTarget): WebSocket {
+[0m
+[33m[31m[ERR][0m     _events: [Object: null prototype] {
+[0m
+[33m[31m[ERR][0m       open: [Function],
+[0m
+[33m[31m[ERR][0m       error: [Function],
+[0m
+[33m[31m[ERR][0m       message: [Function],
+[0m
+[33m[31m[ERR][0m       close: [Function]
+[0m
+[33m[31m[ERR][0m     },
+[0m
+[33m[31m[ERR][0m     _eventsCount: 4,
+[0m
+[33m[31m[ERR][0m     _maxListeners: undefined,
+[0m
+[33m[31m[ERR][0m     _binaryType: 'nodebuffer',
+[0m
+[33m[31m[ERR][0m     _closeCode: 1006,
+[0m
+[33m[31m[ERR][0m     _closeFrameReceived: false,
+[0m
+[33m[31m[ERR][0m     _closeFrameSent: false,
+[0m
+[33m[31m[ERR][0m     _closeMessage: <Buffer >,
+[0m
+[33m[31m[ERR][0m     _closeTimer: null,
+[0m
+[33m[31m[ERR][0m     _errorEmitted: true,
+[0m
+[33m[31m[ERR][0m     _extensions: {},
+[0m
+[33m[31m[ERR][0m     _paused: false,
+[0m
+[33m[31m[ERR][0m     _protocol: '',
+[0m
+[33m[31m[ERR][0m     _readyState: 3,
+[0m
+[33m[31m[ERR][0m     _receiver: null,
+[0m
+[33m[31m[ERR][0m     _sender: null,
+[0m
+[33m[31m[ERR][0m     _socket: null,
+[0m
+[33m[31m[ERR][0m     _bufferedAmount: 0,
+[0m
+[33m[31m[ERR][0m     _isServer: false,
+[0m
+[33m[31m[ERR][0m     _redirects: 0,
+[0m
+[33m[31m[ERR][0m     _autoPong: true,
+[0m
+[33m[31m[ERR][0m     _closeTimeout: 30000,
+[0m
+[33m[31m[ERR][0m     _url: 'ws://localhost:3000/host',
+[0m
+[33m[31m[ERR][0m     _req: null,
+[0m
+[33m[31m[ERR][0m     Symbol(shapeMode): false,
+[0m
+[33m[31m[ERR][0m     Symbol(kCapture): false
+[0m
+[33m[31m[ERR][0m   },
+[0m
+[33m[31m[ERR][0m   Symbol(kType): 'error',
+[0m
+[33m[31m[ERR][0m   Symbol(kError): AggregateError [ECONNREFUSED]: 
+[0m
+[33m[31m[ERR][0m       at internalConnectMultiple (node:net:1339:18)
+[0m
+[33m[31m[ERR][0m       at afterConnectMultiple (node:net:1942:7) {
+[0m
+[33m[31m[ERR][0m     code: 'ECONNREFUSED',
+[0m
+[33m[31m[ERR][0m     [errors]: [ [Error], [Error] ]
+[0m
+[33m[31m[ERR][0m   },
+[0m
+[33m[31m[ERR][0m   Symbol(kMessage): ''
+[0m
+[33m[31m[ERR][0m }
+[0m
+[33m[36m[OUT][0m Waiting for host room id...
+[0m
+[33m[36m[OUT][0m Retrying WRM connection...
+[0m
+[33m[36m[OUT][0m Room socket opened with room manager
+[0m
+[33m[36m[OUT][0m Waiting for host room id...
+[0m
+[33m[36m[OUT][0m ...Got host room id
+[0m
+[33m[36m[OUT][0m ...Got host room id
+[0m
+[33m[36m[OUT][0m ...Got host room id
+[0m
+[33m[36m[OUT][0m ...Got host room id
+[0m
+[33m[36m[OUT][0m ...Got host room id
+[0m
+[33m[36m[OUT][0m ...Got host room id
+[0m
+[33m[36m[OUT][0m ...Got host room id
+[0m
+[33m[36m[OUT][0m ...Got host room id
+[0m
+[33m[36m[OUT][0m ...Got host room id
+[0m
+[33m[36m[OUT][0m ...Got host room id
+[0m
+[33m[36m[OUT][0m ...Got host room id
+[0m
+[33m[36m[OUT][0m ...Got host room id
+[0m
+[33m[36m[OUT][0m ...Got host room id
+[0m
+[33m[36m[OUT][0m 🚀 Up and running with room id: 302836d
+[0m
+[33m[36m[OUT][0m ...Got host room id
+[0m
+[33m[36m[OUT][0m ...Got host room id
+[0m
+[33m[36m[OUT][0m ...Got host room id
+[0m
+[33m[36m[OUT][0m ...Got host room id
+[0m
+[33m[36m[OUT][0m ...Got host room id
+[0m
+[33m[36m[OUT][0m ...Got host room id
+[0m
+[33m[36m[OUT][0m ...Got host room id
+[0m
+[33m[36m[OUT][0m Room socket closed with room manager. Retrying in 5 seconds.
+[0m
+[33m[36m[OUT][0m Retrying WRM connection...
+[0m
+[33m[36m[OUT][0m Room socket opened with room manager
+[0m
+[33m[36m[OUT][0m Waiting for host room id...
+[0m
+[33m[36m[OUT][0m ...Got host room id
+[0m
+[33m[36m[OUT][0m Room socket closed with room manager. Retrying in 5 seconds.
+[0m
+[33m[36m[OUT][0m Retrying WRM connection...
+[0m
+[33m[36m[OUT][0m Room socket opened with room manager
+[0m
+[33m[36m[OUT][0m Waiting for host room id...
+[0m
+[33m[36m[OUT][0m ...Got host room id
+[0m
+[33m[36m[OUT][0m Room socket closed with room manager. Retrying in 5 seconds.
+[0m
+[33m[36m[OUT][0m Retrying WRM connection...
+[0m
+[33m[36m[OUT][0m Room socket opened with room manager
+[0m
+[33m[36m[OUT][0m Waiting for host room id...
+[0m
+[33m[36m[OUT][0m ...Got host room id
+[0m
+[33m[36m[OUT][0m Room socket closed with room manager. Retrying in 5 seconds.
+[0m
+[33m[36m[OUT][0m Retrying WRM connection...
+[0m
+[33m[36m[OUT][0m Room socket opened with room manager
+[0m
+[33m[36m[OUT][0m Waiting for host room id...
+[0m
+[33m[36m[OUT][0m ...Got host room id
+[0m
+[33m[36m[OUT][0m Room socket closed with room manager. Retrying in 5 seconds.
+[0m
+[33m[36m[OUT][0m Retrying WRM connection...
+[0m
+[33m[36m[OUT][0m Room socket opened with room manager
+[0m
+[33m[36m[OUT][0m Waiting for host room id...
+[0m
+[33m[36m[OUT][0m ...Got host room id
+[0m
+[33m[36m[OUT][0m Room socket closed with room manager. Retrying in 5 seconds.
+[0m
+[33m[36m[OUT][0m Retrying WRM connection...
+[0m
+[33m[36m[OUT][0m Room socket opened with room manager
+[0m
+[33m[36m[OUT][0m Waiting for host room id...
+[0m
+[33m[36m[OUT][0m ...Got host room id
+[0m
+[33m[36m[OUT][0m Room socket closed with room manager. Retrying in 5 seconds.
+[0m
+[33m[36m[OUT][0m Retrying WRM connection...
+[0m
+[33m[36m[OUT][0m Room socket opened with room manager
+[0m
+[33m[36m[OUT][0m Waiting for host room id...
+[0m
+[33m[36m[OUT][0m ...Got host room id
+[0m
+[33m[36m[OUT][0m Room socket closed with room manager. Retrying in 5 seconds.
+[0m
+[33m[36m[OUT][0m Retrying WRM connection...
+[0m
+[33m[36m[OUT][0m Room socket opened with room manager
+[0m
+[33m[36m[OUT][0m Waiting for host room id...
+[0m
+[33m[36m[OUT][0m ...Got host room id
+[0m
+[33m[36m[OUT][0m Room socket closed with room manager. Retrying in 5 seconds.
+[0m
+[33m[36m[OUT][0m Retrying WRM connection...
+[0m
+[33m[36m[OUT][0m Room socket opened with room manager
+[0m
+[33m[36m[OUT][0m Waiting for host room id...
+[0m
+[33m[36m[OUT][0m ...Got host room id
+[0m
+[33m[36m[OUT][0m Accepting new peer connection
+[0m
+[33m[36m[OUT][0m Successfully fetched TURN credentials.
+[0m
+[33m[36m[OUT][0m [
+[0m
+[33m[36m[OUT][0m   { urls: 'stun:stun.l.google.com:19302' },
+[0m
+[33m[36m[OUT][0m   { urls: 'stun:stun1.l.google.com:19302' },
+[0m
+[33m[36m[OUT][0m   { urls: 'stun:stun2.l.google.com:19302' },
+[0m
+[33m[36m[OUT][0m   { urls: 'stun:stun3.l.google.com:19302' },
+[0m
+[33m[36m[OUT][0m   { urls: 'stun:stun4.l.google.com:19302' },
+[0m
+[33m[36m[OUT][0m   {
+[0m
+[33m[36m[OUT][0m     urls: 'turn:69.207.41.140:3478?transport=udp',
+[0m
+[33m[36m[OUT][0m     username: '1787130391:user-dcb8bc55ac9c',
+[0m
+[33m[36m[OUT][0m     credential: 'yxHv/kzN0aAb72Or2JY4UhYEECI='
+[0m
+[33m[36m[OUT][0m   }
+[0m
+[33m[36m[OUT][0m ]
+[0m
+[33m[36m[OUT][0m Initializing new peer connection
+[0m
+[33m[36m[OUT][0m New peer connection initialized
+[0m
+[33m[36m[OUT][0m Connecting to new peer
+[0m
+[33m[36m[OUT][0m Connected to new peer
+[0m
+[33m[36m[OUT][0m [635.802]: New socket initiated!
+[0m
+[33m[36m[OUT][0m [635.810]: An unnamed player joined the game! Player ID: 153170. IP: 127.0.0.1. Players: 1.
+[0m
+[33m[36m[OUT][0m Updating room info in WRM {
+[0m
+[33m[36m[OUT][0m   type: 'updatePlayers',
+[0m
+[33m[36m[OUT][0m   serverSpeed: 10,
+[0m
+[33m[36m[OUT][0m   players: 1,
+[0m
+[33m[36m[OUT][0m   maxPlayers: 99,
+[0m
+[33m[36m[OUT][0m   name: '[WOMS] Warfront',
+[0m
+[33m[36m[OUT][0m   desc: 'The default woomy online modded server (WOMS) template. Edit start.js to change this.\n' +
+[0m
+[33m[36m[OUT][0m     '\n' +
+[0m
+[33m[36m[OUT][0m     'Join the discord to learn more about modding!'
+[0m
+[33m[36m[OUT][0m }
+[0m
+[33m[36m[OUT][0m [Peer a0987523-5b29-477e-b6e7-09a15ff5b5ff] Connection closed
+[0m
+[33m[31m[ERR][0m Peer a0987523-5b29-477e-b6e7-09a15ff5b5ff does not exist
+[0m
+[33m[36m[OUT][0m [639.827]: Socket (0) [Unnamed Player]: has disconnected! Players: 0
+[0m
+[33m[31m[ERR][0m Peer a0987523-5b29-477e-b6e7-09a15ff5b5ff does not exist
+[0m
+[33m[36m[OUT][0m Updating room info in WRM {
+[0m
+[33m[36m[OUT][0m   type: 'updatePlayers',
+[0m
+[33m[36m[OUT][0m   serverSpeed: 14,
+[0m
+[33m[36m[OUT][0m   players: 0,
+[0m
+[33m[36m[OUT][0m   maxPlayers: 99,
+[0m
+[33m[36m[OUT][0m   name: '[WOMS] Warfront',
+[0m
+[33m[36m[OUT][0m   desc: 'The default woomy online modded server (WOMS) template. Edit start.js to change this.\n' +
+[0m
+[33m[36m[OUT][0m     '\n' +
+[0m
+[33m[36m[OUT][0m     'Join the discord to learn more about modding!'
+[0m
+[33m[36m[OUT][0m }
+[0m
+[33m[31m[ERR][0m Peer a0987523-5b29-477e-b6e7-09a15ff5b5ff does not exist
+[0m
+[33m[36m[OUT][0m Accepting new peer connection
+[0m
+[33m[36m[OUT][0m Successfully fetched TURN credentials.
+[0m
+[33m[36m[OUT][0m [
+[0m
+[33m[36m[OUT][0m   { urls: 'stun:stun.l.google.com:19302' },
+[0m
+[33m[36m[OUT][0m   { urls: 'stun:stun1.l.google.com:19302' },
+[0m
+[33m[36m[OUT][0m   { urls: 'stun:stun2.l.google.com:19302' },
+[0m
+[33m[36m[OUT][0m   { urls: 'stun:stun3.l.google.com:19302' },
+[0m
+[33m[36m[OUT][0m   { urls: 'stun:stun4.l.google.com:19302' },
+[0m
+[33m[36m[OUT][0m   {
+[0m
+[33m[36m[OUT][0m     urls: 'turn:69.207.41.140:3478?transport=udp',
+[0m
+[33m[36m[OUT][0m     username: '1787130403:user-ec9e9d8f618b',
+[0m
+[33m[36m[OUT][0m     credential: 'mHZxwY658PamdApTKKGeoA2kZP0='
+[0m
+[33m[36m[OUT][0m   }
+[0m
+[33m[36m[OUT][0m ]
+[0m
+[33m[36m[OUT][0m Initializing new peer connection
+[0m
+[33m[36m[OUT][0m New peer connection initialized
+[0m
+[33m[36m[OUT][0m Connecting to new peer
+[0m
+[33m[36m[OUT][0m Connected to new peer
+[0m
+[33m[36m[OUT][0m [648.035]: New socket initiated!
+[0m
+[33m[36m[OUT][0m [648.039]: An unnamed player joined the game! Player ID: 156216. IP: 127.0.0.1. Players: 1.
+[0m
+[33m[36m[OUT][0m Updating room info in WRM {
+[0m
+[33m[36m[OUT][0m   type: 'updatePlayers',
+[0m
+[33m[36m[OUT][0m   serverSpeed: 9,
+[0m
+[33m[36m[OUT][0m   players: 1,
+[0m
+[33m[36m[OUT][0m   maxPlayers: 99,
+[0m
+[33m[36m[OUT][0m   name: '[WOMS] Warfront',
+[0m
+[33m[36m[OUT][0m   desc: 'The default woomy online modded server (WOMS) template. Edit start.js to change this.\n' +
+[0m
+[33m[36m[OUT][0m     '\n' +
+[0m
+[33m[36m[OUT][0m     'Join the discord to learn more about modding!'
+[0m
+[33m[36m[OUT][0m }
+[0m
+[33m[36m[OUT][0m [Peer cf133d7e-a6b9-46c0-97e7-687eac378faa] Connection closed
+[0m
+[33m[31m[ERR][0m Peer cf133d7e-a6b9-46c0-97e7-687eac378faa does not exist
+[0m
+[33m[36m[OUT][0m [649.587]: Socket (1) [Unnamed Player]: has disconnected! Players: 0
+[0m
+[33m[31m[ERR][0m Peer cf133d7e-a6b9-46c0-97e7-687eac378faa does not exist
+[0m
+[33m[36m[OUT][0m Updating room info in WRM {
+[0m
+[33m[36m[OUT][0m   type: 'updatePlayers',
+[0m
+[33m[36m[OUT][0m   serverSpeed: 13,
+[0m
+[33m[36m[OUT][0m   players: 0,
+[0m
+[33m[36m[OUT][0m   maxPlayers: 99,
+[0m
+[33m[36m[OUT][0m   name: '[WOMS] Warfront',
+[0m
+[33m[36m[OUT][0m   desc: 'The default woomy online modded server (WOMS) template. Edit start.js to change this.\n' +
+[0m
+[33m[36m[OUT][0m     '\n' +
+[0m
+[33m[36m[OUT][0m     'Join the discord to learn more about modding!'
+[0m
+[33m[36m[OUT][0m }
+[0m
+[33m[31m[ERR][0m Peer cf133d7e-a6b9-46c0-97e7-687eac378faa does not exist
+[0m
+[33m[36m[OUT][0m Accepting new peer connection
+[0m
+[33m[36m[OUT][0m Successfully fetched TURN credentials.
+[0m
+[33m[36m[OUT][0m [
+[0m
+[33m[36m[OUT][0m   { urls: 'stun:stun.l.google.com:19302' },
+[0m
+[33m[36m[OUT][0m   { urls: 'stun:stun1.l.google.com:19302' },
+[0m
+[33m[36m[OUT][0m   { urls: 'stun:stun2.l.google.com:19302' },
+[0m
+[33m[36m[OUT][0m   { urls: 'stun:stun3.l.google.com:19302' },
+[0m
+[33m[36m[OUT][0m   { urls: 'stun:stun4.l.google.com:19302' },
+[0m
+[33m[36m[OUT][0m   {
+[0m
+[33m[36m[OUT][0m     urls: 'turn:69.207.41.140:3478?transport=udp',
+[0m
+[33m[36m[OUT][0m     username: '1787130409:user-2e292371fef1',
+[0m
+[33m[36m[OUT][0m     credential: 'Mrf0gFXtWS04MHkBPXD8on4ulMw='
+[0m
+[33m[36m[OUT][0m   }
+[0m
+[33m[36m[OUT][0m ]
+[0m
+[33m[36m[OUT][0m Initializing new peer connection
+[0m
+[33m[36m[OUT][0m New peer connection initialized
+[0m
+[33m[36m[OUT][0m Connecting to new peer
+[0m
+[33m[36m[OUT][0m Connected to new peer
+[0m
+[33m[36m[OUT][0m [653.788]: New socket initiated!
+[0m
+[33m[36m[OUT][0m [653.792]: An unnamed player joined the game! Player ID: 157634. IP: 127.0.0.1. Players: 1.
+[0m
+[33m[36m[OUT][0m Updating room info in WRM {
+[0m
+[33m[36m[OUT][0m   type: 'updatePlayers',
+[0m
+[33m[36m[OUT][0m   serverSpeed: 8,
+[0m
+[33m[36m[OUT][0m   players: 1,
+[0m
+[33m[36m[OUT][0m   maxPlayers: 99,
+[0m
+[33m[36m[OUT][0m   name: '[WOMS] Warfront',
+[0m
+[33m[36m[OUT][0m   desc: 'The default woomy online modded server (WOMS) template. Edit start.js to change this.\n' +
+[0m
+[33m[36m[OUT][0m     '\n' +
+[0m
+[33m[36m[OUT][0m     'Join the discord to learn more about modding!'
+[0m
+[33m[36m[OUT][0m }
+[0m
+[33m[36m[OUT][0m [Peer 4fb62896-531f-43c9-b8af-584e489ff77e] Connection closed
+[0m
+[33m[31m[ERR][0m Peer 4fb62896-531f-43c9-b8af-584e489ff77e does not exist
+[0m
+[33m[36m[OUT][0m [657.983]: Socket (2) [Unnamed Player]: has disconnected! Players: 0
+[0m
+[33m[31m[ERR][0m Peer 4fb62896-531f-43c9-b8af-584e489ff77e does not exist
+[0m
+[33m[36m[OUT][0m Updating room info in WRM {
+[0m
+[33m[36m[OUT][0m   type: 'updatePlayers',
+[0m
+[33m[36m[OUT][0m   serverSpeed: 8,
+[0m
+[33m[36m[OUT][0m   players: 0,
+[0m
+[33m[36m[OUT][0m   maxPlayers: 99,
+[0m
+[33m[36m[OUT][0m   name: '[WOMS] Warfront',
+[0m
+[33m[36m[OUT][0m   desc: 'The default woomy online modded server (WOMS) template. Edit start.js to change this.\n' +
+[0m
+[33m[36m[OUT][0m     '\n' +
+[0m
+[33m[36m[OUT][0m     'Join the discord to learn more about modding!'
+[0m
+[33m[36m[OUT][0m }
+[0m
+[33m[31m[ERR][0m Peer 4fb62896-531f-43c9-b8af-584e489ff77e does not exist
+[0m
+[33m[36m[OUT][0m Accepting new peer connection
+[0m
+[33m[36m[OUT][0m Successfully fetched TURN credentials.
+[0m
+[33m[36m[OUT][0m [
+[0m
+[33m[36m[OUT][0m   { urls: 'stun:stun.l.google.com:19302' },
+[0m
+[33m[36m[OUT][0m   { urls: 'stun:stun1.l.google.com:19302' },
+[0m
+[33m[36m[OUT][0m   { urls: 'stun:stun2.l.google.com:19302' },
+[0m
+[33m[36m[OUT][0m   { urls: 'stun:stun3.l.google.com:19302' },
+[0m
+[33m[36m[OUT][0m   { urls: 'stun:stun4.l.google.com:19302' },
+[0m
+[33m[36m[OUT][0m   {
+[0m
+[33m[36m[OUT][0m     urls: 'turn:69.207.41.140:3478?transport=udp',
+[0m
+[33m[36m[OUT][0m     username: '1787130426:user-591ca284d69c',
+[0m
+[33m[36m[OUT][0m     credential: 'DkuRq92Zrj0QPdPbziXUKSckE/U='
+[0m
+[33m[36m[OUT][0m   }
+[0m
+[33m[36m[OUT][0m ]
+[0m
+[33m[36m[OUT][0m Initializing new peer connection
+[0m
+[33m[36m[OUT][0m New peer connection initialized
+[0m
+[33m[36m[OUT][0m Connecting to new peer
+[0m
+[33m[36m[OUT][0m Connected to new peer
+[0m
+[33m[36m[OUT][0m [670.676]: New socket initiated!
+[0m
+[33m[36m[OUT][0m [670.680]: An unnamed player joined the game! Player ID: 161773. IP: 127.0.0.1. Players: 1.
+[0m
+[33m[36m[OUT][0m Updating room info in WRM {
+[0m
+[33m[36m[OUT][0m   type: 'updatePlayers',
+[0m
+[33m[36m[OUT][0m   serverSpeed: 9,
+[0m
+[33m[36m[OUT][0m   players: 1,
+[0m
+[33m[36m[OUT][0m   maxPlayers: 99,
+[0m
+[33m[36m[OUT][0m   name: '[WOMS] Warfront',
+[0m
+[33m[36m[OUT][0m   desc: 'The default woomy online modded server (WOMS) template. Edit start.js to change this.\n' +
+[0m
+[33m[36m[OUT][0m     '\n' +
+[0m
+[33m[36m[OUT][0m     'Join the discord to learn more about modding!'
+[0m
+[33m[36m[OUT][0m }
+[0m
+[33m[36m[OUT][0m [Peer ca03f2f7-3ddf-492a-be90-344de7beb634] Connection closed
+[0m
+[33m[31m[ERR][0m Peer ca03f2f7-3ddf-492a-be90-344de7beb634 does not exist
+[0m
+[33m[36m[OUT][0m [674.932]: Socket (3) [Unnamed Player]: has disconnected! Players: 0
+[0m
+[33m[31m[ERR][0m Peer ca03f2f7-3ddf-492a-be90-344de7beb634 does not exist
+[0m
+[33m[36m[OUT][0m Updating room info in WRM {
+[0m
+[33m[36m[OUT][0m   type: 'updatePlayers',
+[0m
+[33m[36m[OUT][0m   serverSpeed: 10,
+[0m
+[33m[36m[OUT][0m   players: 0,
+[0m
+[33m[36m[OUT][0m   maxPlayers: 99,
+[0m
+[33m[36m[OUT][0m   name: '[WOMS] Warfront',
+[0m
+[33m[36m[OUT][0m   desc: 'The default woomy online modded server (WOMS) template. Edit start.js to change this.\n' +
+[0m
+[33m[36m[OUT][0m     '\n' +
+[0m
+[33m[36m[OUT][0m     'Join the discord to learn more about modding!'
+[0m
+[33m[36m[OUT][0m }
+[0m
+[33m[31m[ERR][0m Peer ca03f2f7-3ddf-492a-be90-344de7beb634 does not exist
+[0m
+[33m[Supervisor]: Process exited (Code: null, Signal: SIGTERM).[0m

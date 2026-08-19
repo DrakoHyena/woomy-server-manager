@@ -1,0 +1,15 @@
+[33m[36m[OUT][0m # STARTING WRM CONNECTION
+[0m
+[33m[31m[ERR][0m (node:161676) [DEP0128] DeprecationWarning: Invalid 'main' field in '/home/drako/Documents/GitHub/woomy-server-manager/instances/wms-18-8-26/node_modules/node-blob/package.json' of 'server.js'. Please either fix that or report it to the module author
+[0m
+[33m[31m[ERR][0m (Use `node --trace-deprecation ...` to show where the warning was created)
+[0m
+[33m[36m[OUT][0m Room socket opened with room manager
+[0m
+[33m[36m[OUT][0m # STARTING WORKER
+[0m
+[33m[36m[OUT][0m [STATUS MESSAGE] Loading definitions... - undefined
+[0m
+[33m[36m[OUT][0m [LOG] Started parsing stats...
+[0m
+[33m[Supervisor]: Process exited (Code: null, Signal: SIGTERM).[0m

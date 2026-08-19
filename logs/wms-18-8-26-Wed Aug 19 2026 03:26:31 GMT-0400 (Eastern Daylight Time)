@@ -1,0 +1,385 @@
+[33m[36m[OUT][0m # STARTING WRM CONNECTION
+[0m
+[33m[31m[ERR][0m (node:175034) [DEP0128] DeprecationWarning: Invalid 'main' field in '/home/drako/Documents/GitHub/woomy-server-manager/instances/wms-18-8-26/node_modules/node-blob/package.json' of 'server.js'. Please either fix that or report it to the module author
+[0m
+[33m[31m[ERR][0m (Use `node --trace-deprecation ...` to show where the warning was created)
+[0m
+[33m[36m[OUT][0m Room socket opened with room manager
+[0m
+[33m[36m[OUT][0m # STARTING WORKER
+[0m
+[33m[36m[OUT][0m [STATUS MESSAGE] Loading definitions... - undefined
+[0m
+[33m[36m[OUT][0m [LOG] Started parsing stats...
+[0m
+[33m[36m[OUT][0m [STATUS MESSAGE] Loading game... - undefined
+[0m
+[33m[36m[OUT][0m Waiting for host room id...
+[0m
+[33m[36m[OUT][0m [LOG] Finished parsing stats!
+[0m
+[33m[36m[OUT][0m [LOG] Started parsing definitions...
+[0m
+[33m[36m[OUT][0m Branch CRF Tanks found undefined at index 27
+[0m
+[33m[36m[OUT][0m [LOG] Finished parsing definitions!
+[0m
+[33m[36m[OUT][0m SERVER START DATA: {
+[0m
+[33m[36m[OUT][0m   suffix: 'warfront.js',
+[0m
+[33m[36m[OUT][0m   displayName: '[OFFICAL] Warfront',
+[0m
+[33m[36m[OUT][0m   displayDesc: 'A stable server hosted by the developer of the game.\n' +
+[0m
+[33m[36m[OUT][0m     '\n' +
+[0m
+[33m[36m[OUT][0m     'Try the new Chinook tank!\n' +
+[0m
+[33m[36m[OUT][0m     '\n' +
+[0m
+[33m[36m[OUT][0m     'Ping me (@drakohyena) in the discord if theres any issues!',
+[0m
+[33m[36m[OUT][0m   maxPlayers: 1,
+[0m
+[33m[36m[OUT][0m   maxBots: 20,
+[0m
+[33m[36m[OUT][0m   roomHostToken: 'suckmyballs'
+[0m
+[33m[36m[OUT][0m }
+[0m
+[33m[36m[OUT][0m Server is supposed to be online. Loading profile warfront.js
+[0m
+[33m[36m[OUT][0m [0.009]: 12500 x 1500 room initalized. Max food: 400. Max nest food: 30. Max crashers: 18.
+[0m
+[33m[36m[OUT][0m Updating room info in WRM {
+[0m
+[33m[36m[OUT][0m   type: 'updatePlayers',
+[0m
+[33m[36m[OUT][0m   serverSpeed: 5,
+[0m
+[33m[36m[OUT][0m   players: 0,
+[0m
+[33m[36m[OUT][0m   maxPlayers: 1,
+[0m
+[33m[36m[OUT][0m   name: '[OFFICAL] Warfront',
+[0m
+[33m[36m[OUT][0m   desc: 'A stable server hosted by the developer of the game.\n' +
+[0m
+[33m[36m[OUT][0m     '\n' +
+[0m
+[33m[36m[OUT][0m     'Try the new Chinook tank!\n' +
+[0m
+[33m[36m[OUT][0m     '\n' +
+[0m
+[33m[36m[OUT][0m     'Ping me (@drakohyena) in the discord if theres any issues!'
+[0m
+[33m[36m[OUT][0m }
+[0m
+[33m[36m[OUT][0m ...Got host room id
+[0m
+[33m[36m[OUT][0m 🚀 Up and running with room id: 575a607
+[0m
+[33m[36m[OUT][0m [0.401]: Spawned 20 AI bots.
+[0m
+[33m[36m[OUT][0m Accepting new peer connection
+[0m
+[33m[36m[OUT][0m Successfully fetched TURN credentials.
+[0m
+[33m[36m[OUT][0m [
+[0m
+[33m[36m[OUT][0m   { urls: 'stun:stun.l.google.com:19302' },
+[0m
+[33m[36m[OUT][0m   { urls: 'stun:stun1.l.google.com:19302' },
+[0m
+[33m[36m[OUT][0m   { urls: 'stun:stun2.l.google.com:19302' },
+[0m
+[33m[36m[OUT][0m   { urls: 'stun:stun3.l.google.com:19302' },
+[0m
+[33m[36m[OUT][0m   { urls: 'stun:stun4.l.google.com:19302' },
+[0m
+[33m[36m[OUT][0m   {
+[0m
+[33m[36m[OUT][0m     urls: 'turn:69.207.41.140:3478?transport=udp',
+[0m
+[33m[36m[OUT][0m     username: '1787128008:user-bcecdcfd9458',
+[0m
+[33m[36m[OUT][0m     credential: '6OqsmcO/HooW0VQB8oKpVeWvJA8='
+[0m
+[33m[36m[OUT][0m   }
+[0m
+[33m[36m[OUT][0m ]
+[0m
+[33m[36m[OUT][0m Initializing new peer connection
+[0m
+[33m[36m[OUT][0m New peer connection initialized
+[0m
+[33m[36m[OUT][0m Connecting to new peer
+[0m
+[33m[36m[OUT][0m Connected to new peer
+[0m
+[33m[36m[OUT][0m [16.471]: New socket initiated!
+[0m
+[33m[36m[OUT][0m [16.483]: An unnamed player joined the game! Player ID: 1931. IP: 127.0.0.1. Players: 1.
+[0m
+[33m[36m[OUT][0m Updating room info in WRM {
+[0m
+[33m[36m[OUT][0m   type: 'updatePlayers',
+[0m
+[33m[36m[OUT][0m   serverSpeed: 7,
+[0m
+[33m[36m[OUT][0m   players: 1,
+[0m
+[33m[36m[OUT][0m   maxPlayers: 1,
+[0m
+[33m[36m[OUT][0m   name: '[OFFICAL] Warfront',
+[0m
+[33m[36m[OUT][0m   desc: 'A stable server hosted by the developer of the game.\n' +
+[0m
+[33m[36m[OUT][0m     '\n' +
+[0m
+[33m[36m[OUT][0m     'Try the new Chinook tank!\n' +
+[0m
+[33m[36m[OUT][0m     '\n' +
+[0m
+[33m[36m[OUT][0m     'Ping me (@drakohyena) in the discord if theres any issues!'
+[0m
+[33m[36m[OUT][0m }
+[0m
+[33m[36m[OUT][0m [Peer 64d6f54f-c52f-4a8b-8aaf-27425c017bb5] Connection closed
+[0m
+[33m[31m[ERR][0m Peer 64d6f54f-c52f-4a8b-8aaf-27425c017bb5 does not exist
+[0m
+[33m[31m[ERR][0m Peer 64d6f54f-c52f-4a8b-8aaf-27425c017bb5 does not exist
+[0m
+[33m[36m[OUT][0m [20.688]: Socket (0) [Unnamed Player]: has disconnected! Players: 0
+[0m
+[33m[31m[ERR][0m Peer 64d6f54f-c52f-4a8b-8aaf-27425c017bb5 does not exist
+[0m
+[33m[36m[OUT][0m Updating room info in WRM {
+[0m
+[33m[36m[OUT][0m   type: 'updatePlayers',
+[0m
+[33m[36m[OUT][0m   serverSpeed: 6,
+[0m
+[33m[36m[OUT][0m   players: 0,
+[0m
+[33m[36m[OUT][0m   maxPlayers: 1,
+[0m
+[33m[36m[OUT][0m   name: '[OFFICAL] Warfront',
+[0m
+[33m[36m[OUT][0m   desc: 'A stable server hosted by the developer of the game.\n' +
+[0m
+[33m[36m[OUT][0m     '\n' +
+[0m
+[33m[36m[OUT][0m     'Try the new Chinook tank!\n' +
+[0m
+[33m[36m[OUT][0m     '\n' +
+[0m
+[33m[36m[OUT][0m     'Ping me (@drakohyena) in the discord if theres any issues!'
+[0m
+[33m[36m[OUT][0m }
+[0m
+[33m[31m[ERR][0m Peer 64d6f54f-c52f-4a8b-8aaf-27425c017bb5 does not exist
+[0m
+[33m[36m[OUT][0m Accepting new peer connection
+[0m
+[33m[36m[OUT][0m Successfully fetched TURN credentials.
+[0m
+[33m[36m[OUT][0m [
+[0m
+[33m[36m[OUT][0m   { urls: 'stun:stun.l.google.com:19302' },
+[0m
+[33m[36m[OUT][0m   { urls: 'stun:stun1.l.google.com:19302' },
+[0m
+[33m[36m[OUT][0m   { urls: 'stun:stun2.l.google.com:19302' },
+[0m
+[33m[36m[OUT][0m   { urls: 'stun:stun3.l.google.com:19302' },
+[0m
+[33m[36m[OUT][0m   { urls: 'stun:stun4.l.google.com:19302' },
+[0m
+[33m[36m[OUT][0m   {
+[0m
+[33m[36m[OUT][0m     urls: 'turn:69.207.41.140:3478?transport=udp',
+[0m
+[33m[36m[OUT][0m     username: '1787128303:user-29744988e9ae',
+[0m
+[33m[36m[OUT][0m     credential: 'T4+Sub7H8XaBERQFTSkgxP+11ac='
+[0m
+[33m[36m[OUT][0m   }
+[0m
+[33m[36m[OUT][0m ]
+[0m
+[33m[36m[OUT][0m Initializing new peer connection
+[0m
+[33m[36m[OUT][0m New peer connection initialized
+[0m
+[33m[36m[OUT][0m Connecting to new peer
+[0m
+[33m[36m[OUT][0m Connected to new peer
+[0m
+[33m[36m[OUT][0m [313.613]: New socket initiated!
+[0m
+[33m[36m[OUT][0m [314.202]: An unnamed player joined the game! Player ID: 58519. IP: 127.0.0.1. Players: 1.
+[0m
+[33m[36m[OUT][0m Updating room info in WRM {
+[0m
+[33m[36m[OUT][0m   type: 'updatePlayers',
+[0m
+[33m[36m[OUT][0m   serverSpeed: 23,
+[0m
+[33m[36m[OUT][0m   players: 1,
+[0m
+[33m[36m[OUT][0m   maxPlayers: 1,
+[0m
+[33m[36m[OUT][0m   name: '[OFFICAL] Warfront',
+[0m
+[33m[36m[OUT][0m   desc: 'A stable server hosted by the developer of the game.\n' +
+[0m
+[33m[36m[OUT][0m     '\n' +
+[0m
+[33m[36m[OUT][0m     'Try the new Chinook tank!\n' +
+[0m
+[33m[36m[OUT][0m     '\n' +
+[0m
+[33m[36m[OUT][0m     'Ping me (@drakohyena) in the discord if theres any issues!'
+[0m
+[33m[36m[OUT][0m }
+[0m
+[33m[36m[OUT][0m Accepting new peer connection
+[0m
+[33m[36m[OUT][0m Successfully fetched TURN credentials.
+[0m
+[33m[36m[OUT][0m [
+[0m
+[33m[36m[OUT][0m   { urls: 'stun:stun.l.google.com:19302' },
+[0m
+[33m[36m[OUT][0m   { urls: 'stun:stun1.l.google.com:19302' },
+[0m
+[33m[36m[OUT][0m   { urls: 'stun:stun2.l.google.com:19302' },
+[0m
+[33m[36m[OUT][0m   { urls: 'stun:stun3.l.google.com:19302' },
+[0m
+[33m[36m[OUT][0m   { urls: 'stun:stun4.l.google.com:19302' },
+[0m
+[33m[36m[OUT][0m   {
+[0m
+[33m[36m[OUT][0m     urls: 'turn:69.207.41.140:3478?transport=udp',
+[0m
+[33m[36m[OUT][0m     username: '1787128451:user-a4b4d80dc9fa',
+[0m
+[33m[36m[OUT][0m     credential: 'rLqxQDCkQJYqYwead25ZmlJ0wUg='
+[0m
+[33m[36m[OUT][0m   }
+[0m
+[33m[36m[OUT][0m ]
+[0m
+[33m[36m[OUT][0m Initializing new peer connection
+[0m
+[33m[36m[OUT][0m New peer connection initialized
+[0m
+[33m[36m[OUT][0m Connecting to new peer
+[0m
+[33m[36m[OUT][0m Connected to new peer
+[0m
+[33m[36m[OUT][0m [461.363]: New socket initiated!
+[0m
+[33m[36m[OUT][0m [461.867]: A socket was verified with the token: hello man :)
+[0m
+[33m[36m[OUT][0m [462.119]: Lol joined the game! Player ID: 81697. IP: 127.0.0.1. Players: 2.
+[0m
+[33m[36m[OUT][0m Updating room info in WRM {
+[0m
+[33m[36m[OUT][0m   type: 'updatePlayers',
+[0m
+[33m[36m[OUT][0m   serverSpeed: 7,
+[0m
+[33m[36m[OUT][0m   players: 2,
+[0m
+[33m[36m[OUT][0m   maxPlayers: 1,
+[0m
+[33m[36m[OUT][0m   name: '[OFFICAL] Warfront',
+[0m
+[33m[36m[OUT][0m   desc: 'A stable server hosted by the developer of the game.\n' +
+[0m
+[33m[36m[OUT][0m     '\n' +
+[0m
+[33m[36m[OUT][0m     'Try the new Chinook tank!\n' +
+[0m
+[33m[36m[OUT][0m     '\n' +
+[0m
+[33m[36m[OUT][0m     'Ping me (@drakohyena) in the discord if theres any issues!'
+[0m
+[33m[36m[OUT][0m }
+[0m
+[33m[36m[OUT][0m [INFO] WoomyOnlineSocketId (19e532edfa1) attempted to join while the room is full.
+[0m
+[33m[36m[OUT][0m [462.120]: Socket (2) [Unnamed Player]: has disconnected! Players: 1
+[0m
+[33m[36m[OUT][0m Updating room info in WRM {
+[0m
+[33m[36m[OUT][0m   type: 'updatePlayers',
+[0m
+[33m[36m[OUT][0m   serverSpeed: 7,
+[0m
+[33m[36m[OUT][0m   players: 1,
+[0m
+[33m[36m[OUT][0m   maxPlayers: 1,
+[0m
+[33m[36m[OUT][0m   name: '[OFFICAL] Warfront',
+[0m
+[33m[36m[OUT][0m   desc: 'A stable server hosted by the developer of the game.\n' +
+[0m
+[33m[36m[OUT][0m     '\n' +
+[0m
+[33m[36m[OUT][0m     'Try the new Chinook tank!\n' +
+[0m
+[33m[36m[OUT][0m     '\n' +
+[0m
+[33m[36m[OUT][0m     'Ping me (@drakohyena) in the discord if theres any issues!'
+[0m
+[33m[36m[OUT][0m }
+[0m
+[33m[36m[OUT][0m [Peer 37c273c2-130f-4330-9fa0-12b50b503941] Connection closed
+[0m
+[33m[31m[ERR][0m Peer 37c273c2-130f-4330-9fa0-12b50b503941 does not exist
+[0m
+[33m[36m[OUT][0m [Peer 81fe35cb-8532-43c9-9864-c4e996619393] Connection closed
+[0m
+[33m[31m[ERR][0m Peer 81fe35cb-8532-43c9-9864-c4e996619393 does not exist
+[0m
+[33m[31m[ERR][0m Peer 81fe35cb-8532-43c9-9864-c4e996619393 does not exist
+[0m
+[33m[31m[ERR][0m Peer 81fe35cb-8532-43c9-9864-c4e996619393 does not exist
+[0m
+[33m[36m[OUT][0m [566.146]: Socket (1) [Unnamed Player]: has disconnected! Players: 0
+[0m
+[33m[31m[ERR][0m Peer 81fe35cb-8532-43c9-9864-c4e996619393 does not exist
+[0m
+[33m[36m[OUT][0m Updating room info in WRM {
+[0m
+[33m[36m[OUT][0m   type: 'updatePlayers',
+[0m
+[33m[36m[OUT][0m   serverSpeed: 25,
+[0m
+[33m[36m[OUT][0m   players: 0,
+[0m
+[33m[36m[OUT][0m   maxPlayers: 1,
+[0m
+[33m[36m[OUT][0m   name: '[OFFICAL] Warfront',
+[0m
+[33m[36m[OUT][0m   desc: 'A stable server hosted by the developer of the game.\n' +
+[0m
+[33m[36m[OUT][0m     '\n' +
+[0m
+[33m[36m[OUT][0m     'Try the new Chinook tank!\n' +
+[0m
+[33m[36m[OUT][0m     '\n' +
+[0m
+[33m[36m[OUT][0m     'Ping me (@drakohyena) in the discord if theres any issues!'
+[0m
+[33m[36m[OUT][0m }
+[0m
+[33m[31m[ERR][0m Peer 81fe35cb-8532-43c9-9864-c4e996619393 does not exist
+[0m
+[33m[Supervisor]: Process exited (Code: null, Signal: SIGTERM).[0m
