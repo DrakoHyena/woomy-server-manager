@@ -146,7 +146,7 @@ function renderUI() {
     // 3. Instances List
     if (processes.length === 0) {
         lines.push(chalk.bgHex(theme.c3)(" ".repeat(W)));
-        lines.push(chalk.bgHex(theme.c3).hex(theme.text)(center("(Connecting to daemon or no instances found...)", W)));
+        lines.push(chalk.bgHex(theme.c3).hex(theme.text)(center("(Connecting to daemon or no instances found. Put a version of WOMS inside of a folder named anything under ./instances/)", W)));
     } else {
         processes.forEach((proc, idx) => {
             const isSelected = idx === selectedIndex;
